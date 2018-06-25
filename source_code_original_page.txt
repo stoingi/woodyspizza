@@ -1,0 +1,1482 @@
+<!doctype html>
+<html class="no-js" lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <title>WOODY PIZZA</title>
+    <meta name="keywords" content="Woody Pizza, woodypizza, Holzofenpizza, Foodtruck, Event, Catering, Saurer, Oldtimer, Party, Qualität" />
+    <meta name="description" content="Woody Pizza Truck
+Holzofenpizza vom Saurer Oldtimer LKW" />
+
+            <link rel="icon" href="//files.designer.hoststar.ch/hoststar12359/image/favicon_pizza.ico" type="image/x-icon" />
+        <link rel="SHORTCUT ICON" href="//files.designer.hoststar.ch/hoststar12359/image/favicon_pizza.ico?v=1529312740" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    
+	<meta property="og:url" content="http://www.woodypizza.ch/">
+	<meta property="og:title" content="Home Page">
+	<meta property="og:description" content="Woody Pizza Truck
+Holzofenpizza vom Saurer Oldtimer LKW">
+	<meta property="og:site_name" content="WOODY PIZZA">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<meta name="generator" content="BaseKit">
+
+
+    <link rel="canonical" href="http://www.woodypizza.ch">
+
+
+            <link rel="stylesheet" href="//files.designer.hoststar.ch/fb/0c/fb0c390e-229c-40e3-8ebd-4d12895c3018.css" class="js-initial-stylesheet">
+    
+<link rel="stylesheet" href="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/compiled/photo-swipe.css">
+
+
+
+
+    
+            <style
+            class="js-webfont"
+            data-woff-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/raleway.woff.json"
+            data-ttf-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/raleway.ttf.json"
+            data-fallback-stylesheet="https://fonts.googleapis.com/css?family=Raleway&amp;subset=latin"
+            data-name="raleway"
+        ></style>
+            <style
+            class="js-webfont"
+            data-woff-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/pt_sans.woff.json"
+            data-ttf-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/pt_sans.ttf.json"
+            data-fallback-stylesheet="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=latin"
+            data-name="pt_sans"
+        ></style>
+            <style
+            class="js-webfont"
+            data-woff-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/quicksand.woff.json"
+            data-ttf-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/quicksand.ttf.json"
+            data-fallback-stylesheet="https://fonts.googleapis.com/css?family=Quicksand&amp;subset=latin"
+            data-name="quicksand"
+        ></style>
+            <style
+            class="js-webfont"
+            data-woff-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/pt_sans.woff.json"
+            data-ttf-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/pt_sans.ttf.json"
+            data-fallback-stylesheet="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=latin"
+            data-name="pt_sans"
+        ></style>
+            <style
+            class="js-webfont"
+            data-woff-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/source_serif_pro.woff.json"
+            data-ttf-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/source_serif_pro.ttf.json"
+            data-fallback-stylesheet="https://fonts.googleapis.com/css?family=Source+Serif+Pro&amp;subset=latin"
+            data-name="source_serif_pro"
+        ></style>
+            <style
+            class="js-webfont"
+            data-woff-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/poppins.woff.json"
+            data-ttf-cache="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/seven/fonts/poppins.ttf.json"
+            data-fallback-stylesheet="https://fonts.googleapis.com/css?family=Poppins&amp;subset=latin"
+            data-name="poppins"
+        ></style>
+    <script nonce="">
+(function () {
+    var fontCollections,
+        fontsToCache,
+        fallback = 1;
+
+    function loadFontsAsynchronously() {
+        if (!fallback) {
+            return;
+        }
+
+        for (var i = 0, j = fontCollections.length; i < j; ++i) {
+            var link = document.createElement('link'),
+                head = document.getElementsByTagName('head')[0];
+            link.rel = 'stylesheet';
+            link.href = fontCollections[i].getAttribute('data-fallback-stylesheet');
+            head.appendChild(link);
+        }
+    }
+
+    function loadFontsFromStorage() {
+        var localKey = 'published',
+            format,
+            collection,
+            cachedFont;
+
+        if (!window.localStorage) {
+            return;
+        }
+
+        format = window.localStorage.getItem('bk.webfonts.format')
+        if (!format) {
+            return;
+        }
+
+        for (var i = 0, j = fontCollections.length; i < j; ++i) {
+            collection = fontCollections[i];
+            cacheKey = 'bk.webfonts.' + localKey + '.' + format + '.' + collection.getAttribute('data-name');
+            cachedFont = window.localStorage.getItem(cacheKey);
+            if (!cachedFont) {
+                continue;
+            }
+            collection.innerHTML = cachedFont;
+            collection.setAttribute('data-cache-full', 'data-cache-full');
+        }
+    }
+
+    if (!'querySelectorAll' in window) {
+        return;
+    }
+
+    fontCollections = document.head.querySelectorAll('.js-webfont');
+    if (!'localStorage' in window || !'addEventListener' in window) {
+        loadFontsAsynchronously();
+        return;
+    }
+
+    loadFontsFromStorage();
+}());
+</script>
+
+
+
+</head>
+
+<body class="bc bk-pt-home">
+
+        <!-- Main Widget Zone -->
+        
+<div class="hero">
+
+    <!-- Theme Feature Widget -->
+    <div id="page-zones__template-widgets__feature-featurehome" class="widget  widget--template-widget" data-widget-type="feature" data-uniqueid="page-zones__template-widgets__feature-featurehome">
+
+        
+<div class="bk-feature  feature  widget__feature">
+
+        <div class="background-image  feature__background-image"  style="background-image: url('//files.designer.hoststar.ch/b1/77/b1772a9f-26da-4bac-9604-668dcb502182.jpg'); background-position: center 45.29707580555%" >
+
+    
+    </div>
+
+</div>
+
+<img src="//files.designer.hoststar.ch/b1/77/b1772a9f-26da-4bac-9604-668dcb502182.jpg" style="display:none;" class="js-image" alt="Hervorgehobenes Bild"/>
+
+</div>
+
+
+    <!-- Header -->
+    <div class="hero-header">
+
+        <div class="flex-container">
+            <div class="flex-item flex-nav">
+                
+            </div>
+        </div>
+
+        <div class="companyname-default companyname-home">
+            
+        </div>
+
+    </div>
+
+    <!-- Feature Arrow -->
+    <div class="feature-arrow">
+        <a href="#main-scroll" class="feature-arrow-link  arrow-bounce"></a>
+    </div>
+
+</div>
+
+<!-- Container -->
+<div class="container">
+
+    <!-- Page Content -->
+    <section id="main-scroll" class="template-content">
+
+        <!-- Main Widget Zone -->
+        <section
+    id="page-zones__main"
+    class="bk-zone column "
+    data-uniqueid="F8PmEXW3N5Tz8Kd"
+    data-parentuniqueid=""
+>            
+<div
+    id="page-zones__main-widgets__5a4fb82f3403a"
+    data-name="content"
+    class="widget widget--zone-widget"
+    data-uniqueid="pVsIL1tNko8UTSt"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+        <div class="bk-content-text  content  widget__content  wysihtml-editor-content" itemscope itemtype="https://schema.org/WebPage">
+      <span class="js-text-content content-block" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+
+                    <p style="text-align: center;"><span style="color: rgb(0, 0, 0);"><b><span class="wysiwyg-font-size-xx-large">WOODY PIZZA TRUCK</span></b></span></p><p style="text-align: center;"><span class="wysiwyg-font-size-larger"><span style="color: rgb(0, 0, 0);">PIZZA AUS DEM HOLZOFEN</span></span></p>
+          
+      </span>
+    </div>
+
+    
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5a4fba76e39d8"
+    data-name="content"
+    class="widget widget--zone-widget"
+    data-uniqueid="fhUJfJoJHk8MjF1"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+        <div class="bk-content-text  content  widget__content  wysihtml-editor-content" itemscope itemtype="https://schema.org/WebPage">
+      <span class="js-text-content content-block" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+
+                    <div style="text-align: center;"><span style="color: rgb(0, 0, 0);"><span class="wysiwyg-font-size-larger">STREETFOOD</span></span></div><div style="text-align: center;"><span style="color: rgb(0, 0, 0);"><span class="wysiwyg-font-size-larger">EVENTS &amp; CATERING</span></span></div>
+          
+      </span>
+    </div>
+
+    
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5a50c925e423f"
+    data-name="content"
+    class="widget widget--zone-widget"
+    data-uniqueid="wGPIeRwJ0CVz7na"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+        <div class="bk-content-text  content  widget__content  wysihtml-editor-content" itemscope itemtype="https://schema.org/WebPage">
+      <span class="js-text-content content-block" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+
+                    <p style="text-align: center;"><span style="color: rgb(0, 0, 0);"><a href="mailto:booking@woodypizza.ch" target="_self"><span class="wysiwyg-font-size-larger">booking@woodypizza.ch</span></a></span></p>
+          
+      </span>
+    </div>
+
+    
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5a524101c0b80"
+    data-name="content"
+    class="widget widget--zone-widget"
+    data-uniqueid="1AqYnkTTSZPJJrb"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+        <div class="bk-content-text  content  widget__content  wysihtml-editor-content" itemscope itemtype="https://schema.org/WebPage">
+      <span class="js-text-content content-block" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+
+                    <p style="text-align: center;"><span style="color: rgb(0, 0, 0);"><span class="wysiwyg-font-size-larger">MOBILE +41 78 740 68 62</span></span></p>
+          
+      </span>
+    </div>
+
+    
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5ad64c6230e91"
+    data-name="button"
+    class="widget widget--zone-widget"
+    data-uniqueid="owEanO7CVFp2iox"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-button  buttonwidget  widget__buttonwidget  widget-align-center">
+
+            <a href="http://files.designer.hoststar.ch/7b/b1/7bb1725f-adcf-4fcb-8112-ec8d72ee5daa.pdf" target="_blank" class="button js-btn buttonwidget__button  " >Wanted: Pizzaiolo</a>
+    </div>
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5a68d88063dd0"
+    data-name="space"
+    class="widget widget--zone-widget"
+    data-uniqueid="hGnjSLVY0fGAKlD"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-space  space  widget__space">
+
+        <div class="spacer  space__spacer" style="height: 23px">&nbsp;</div>
+
+</div>
+</div>
+                
+<div
+    id="page-zones__main-widgets__5a579dd51ba59"
+    data-name="responsiveslideshow"
+    class="widget widget--zone-widget"
+    data-uniqueid="Djhq3wTNski708Z"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    
+        
+                
+<div class="bk-responsiveslideshow  responsiveslideshow  widget__responsiveslideshow">
+
+    
+    <ul class="slides-list  responsiveslideshow__slides-list  cover" itemscope itemtype="https://schema.org/ImageGallery">
+                            
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="0" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item  current">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/ff/de/ffde34ff-2c87-415d-9627-200bc48c0a6b.jpg');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/ff/de/ffde34ff-2c87-415d-9627-200bc48c0a6b.jpg" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="1" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/53/d8/53d80bdc-4510-4e9a-808e-0f2c830aa24f.jpg');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/53/d8/53d80bdc-4510-4e9a-808e-0f2c830aa24f.jpg" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="2" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/6a/18/6a18e385-5f5b-4612-9bde-3992fb7257d8.png');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/6a/18/6a18e385-5f5b-4612-9bde-3992fb7257d8.png" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="3" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/34/65/3465a6ad-9f16-476d-a3be-e24fdf0e6c1f.png');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/34/65/3465a6ad-9f16-476d-a3be-e24fdf0e6c1f.png" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="4" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/db/4e/db4e3cfc-9b7c-46f7-96d1-d36a90ef7b3f.png');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/db/4e/db4e3cfc-9b7c-46f7-96d1-d36a90ef7b3f.png" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="5" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/b1/de/b1defbd9-9ca9-4b49-8bed-fd7567e3d7bf.png');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/b1/de/b1defbd9-9ca9-4b49-8bed-fd7567e3d7bf.png" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="6" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/5c/55/5c556467-c786-46ca-bedd-cb1278a2b596.jpg');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/5c/55/5c556467-c786-46ca-bedd-cb1278a2b596.jpg" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="7" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/d7/20/d720a186-ce46-4c10-887e-0d2f66789cb1.jpg');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/d7/20/d720a186-ce46-4c10-887e-0d2f66789cb1.jpg" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="8" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/b5/41/b541536e-67b3-4241-90f7-38e06b2bacd8.jpg');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/b5/41/b541536e-67b3-4241-90f7-38e06b2bacd8.jpg" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="9" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/91/fd/91fde987-4ece-4abd-a217-471045d459e8.jpg');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/91/fd/91fde987-4ece-4abd-a217-471045d459e8.jpg" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="10" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/f3/fd/f3fd8552-4ea0-48ee-b250-77de4bba47eb.jpg');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/f3/fd/f3fd8552-4ea0-48ee-b250-77de4bba47eb.jpg" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="11" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/2b/6d/2b6dbff0-e4ac-46db-91d7-b06a32707ac9.jpg');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/2b/6d/2b6dbff0-e4ac-46db-91d7-b06a32707ac9.jpg" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="12" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/8b/84/8b84683f-e78a-4c20-a2f1-e6de3f68bf98.jpg');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/8b/84/8b84683f-e78a-4c20-a2f1-e6de3f68bf98.jpg" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+        
+                            
+                    
+                                        
+                    
+        
+        <li data-ref="13" class="slide-item  responsiveslideshow__slide-item  responsiveslideshow-image-item  js-responsiveslideshow-image-item">
+
+                        <figure class="figure  responsiveslideshow__figure  landscape" style="background-image:url('//files.designer.hoststar.ch/f0/48/f04813f6-376c-4d8d-bef6-06a41fb6f4b9.jpg');" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+
+                                <img class="image  responsiveslideshow__image  js-responsiveslideshow-image" src="//files.designer.hoststar.ch/f0/48/f04813f6-376c-4d8d-bef6-06a41fb6f4b9.jpg" itemprop="contentUrl">
+
+                
+            </figure>
+
+        </li>
+        
+        
+    </ul>
+
+    
+    
+        
+    
+                    <nav class="slide-pagination  responsiveslideshow__slide-pagination">
+            <ul class="pagination-list  responsiveslideshow__pagination-list">
+                    
+                                                                                                            <li data-ref="0" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl  selected">
+                            <button class="button  button--pagination  responsiveslideshow__button">1</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="1" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">2</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="2" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">3</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="3" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">4</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="4" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">5</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="5" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">6</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="6" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">7</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="7" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">8</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="8" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">9</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="9" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">10</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="10" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">11</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="11" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">12</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="12" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">13</button>
+                        </li>
+                                        
+                                                                                                            <li data-ref="13" class="pagination-item  responsiveslideshow__pagination-item js-dot js-slide-ctrl ">
+                            <button class="button  button--pagination  responsiveslideshow__button">14</button>
+                        </li>
+                                                    </ul>
+        </nav>
+            
+
+    
+</div>
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5a68d8a5a5c96"
+    data-name="space"
+    class="widget widget--zone-widget"
+    data-uniqueid="zEP1mp7sAgrQFjS"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-space  space  widget__space">
+
+        <div class="spacer  space__spacer" style="height: 23px">&nbsp;</div>
+
+</div>
+</div>
+                
+<div
+    id="page-zones__main-widgets__5a5c9f604f1ad"
+    data-name="image"
+    class="widget widget--zone-widget"
+    data-uniqueid="G0swg6vqSh5Dv5X"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    
+    
+                
+    
+    
+                
+
+
+<div class="bk-image  imagewidget  widget__imagewidget  widget-align-center">
+
+        <figure class="figure imagewidget__figure" itemscope itemtype="https://schema.org/ImageObject">
+
+                <a href="none" target="none" title="" class="image-link  imagewidget__image-link  js-pswp-image-trigger " itemprop="url">
+
+                        <img class="image  imagewidget__image js-pswp-image" src="//files.designer.hoststar.ch/66/42/66429712-8553-49ab-b60e-545950cc497b.png" alt="" data-path="//files.designer.hoststar.ch/66/42/66429712-8553-49ab-b60e-545950cc497b.png" title="" data-filename="woodypizza_final_cmyk (2).png" data-filesize=""  width= "25%"  itemprop="contentURL">
+        </a>
+
+        
+    </figure>
+
+</div>
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec679ec8ae8"
+    data-name="content"
+    class="widget widget--zone-widget"
+    data-uniqueid="tF0sMpCiVsJT6kD"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+        <div class="bk-content-text  content  widget__content  wysihtml-editor-content" itemscope itemtype="https://schema.org/WebPage">
+      <span class="js-text-content content-block" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+
+                    <div style="text-align: center;"></div><div style="text-align: center;"><span class="wysiwyg-font-size-large"><b>Unsere STREETFOOD Standorte</b></span><span class="wysiwyg-font-size-larger"><b><br></b></span><span class="wysiwyg-font-size-large">Pizza aus dem Holzofen jeweils ab 11.45 Uhr<br><br><b>Achtung! Neu! Auf dem Campingplatz in Zug: Mittag &amp; Abend</b></span></div>
+          
+      </span>
+    </div>
+
+    
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec6f47a1fd9"
+    data-name="button"
+    class="widget widget--zone-widget"
+    data-uniqueid="aG9Y2FQsFAu8gm9"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-button  buttonwidget  widget__buttonwidget  widget-align-center">
+
+            <a href="http://files.designer.hoststar.ch/14/24/1424b669-7e62-4737-8989-9eb7571ed78a.pdf" target="_blank" class="button js-btn buttonwidget__button  " >Angebot</a>
+    </div>
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5b18c6211a493"
+    data-name="space"
+    class="widget widget--zone-widget"
+    data-uniqueid="MkPz5CENCnLOhUz"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-space  space  widget__space">
+
+        <div class="spacer  space__spacer" style="height: 50px">&nbsp;</div>
+
+</div>
+</div>
+                
+<div
+    id="page-zones__main-widgets__5b18c4afca412"
+    data-name="content"
+    class="widget widget--zone-widget"
+    data-uniqueid="Fd9BBXjlU7j8Qjk"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+        <div class="bk-content-text  content  widget__content  wysihtml-editor-content" itemscope itemtype="https://schema.org/WebPage">
+      <span class="js-text-content content-block" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+
+                    <p><b>Montag: Campingplatz Zug Mittag ab 11.45 Uhr / Abend ab 17.30 Uhr</b></p>
+          
+      </span>
+    </div>
+
+    
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5b18c55e16bc3"
+    data-name="map"
+    class="widget widget--zone-widget"
+    data-uniqueid="0sXKlMMQAQeSKZT"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-map  map  widget__map">
+        <div class="embed-wrap  map__embed-wrap  js-map">
+                                                                                                                
+                
+                                            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC8V96sGgzrasorg2xPOlrlp-cpQFPLSxM&amp;q=TCS%20Camping%20Zug%2C%20Chamer%20Fussweg%2036%2C%206300&amp;zoom=12" allowFullScreen height="200" width="100%" class="js-google-maps-embed-frame" frameborder="0"></iframe>
+        </div>
+</div>
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec8a1fd75a0"
+    data-name="space"
+    class="widget widget--zone-widget"
+    data-uniqueid="UrHQ5CPO75CTuwG"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-space  space  widget__space">
+
+        <div class="spacer  space__spacer" style="height: 30px">&nbsp;</div>
+
+</div>
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec68d67ee13"
+    data-name="content"
+    class="widget widget--zone-widget"
+    data-uniqueid="ADcVvhvNjZyHv2c"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+        <div class="bk-content-text  content  widget__content  wysihtml-editor-content" itemscope itemtype="https://schema.org/WebPage">
+      <span class="js-text-content content-block" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+
+                    <p style="text-align: left;"><b>Dienstag: Muri AG</b></p>
+          
+      </span>
+    </div>
+
+    
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec6789dd0b9"
+    data-name="map"
+    class="widget widget--zone-widget"
+    data-uniqueid="ak0iOMowqtz2Ydo"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-map  map  widget__map">
+        <div class="embed-wrap  map__embed-wrap  js-map">
+                                                                                                                
+                
+                                            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC8V96sGgzrasorg2xPOlrlp-cpQFPLSxM&amp;q=Robert%20Wild%20AG%2C%20Luzernerstrasse%2019%2C%205630&amp;zoom=12" allowFullScreen height="200" width="100%" class="js-google-maps-embed-frame" frameborder="0"></iframe>
+        </div>
+</div>
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec8d1d223b6"
+    data-name="space"
+    class="widget widget--zone-widget"
+    data-uniqueid="jOJRJpS52HlgZpU"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-space  space  widget__space">
+
+        <div class="spacer  space__spacer" style="height: 50px">&nbsp;</div>
+
+</div>
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec694397892"
+    data-name="content"
+    class="widget widget--zone-widget"
+    data-uniqueid="2iBtj9ewzMAc8MH"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+        <div class="bk-content-text  content  widget__content  wysihtml-editor-content" itemscope itemtype="https://schema.org/WebPage">
+      <span class="js-text-content content-block" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+
+                    <p style="text-align: left;"><b>Mittwoch: Baar ZG</b></p>
+          
+      </span>
+    </div>
+
+    
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec698af0a1e"
+    data-name="map"
+    class="widget widget--zone-widget"
+    data-uniqueid="Pj4eg2rjxUaUFM0"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-map  map  widget__map">
+        <div class="embed-wrap  map__embed-wrap  js-map">
+                                                                                                                
+                
+                                            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC8V96sGgzrasorg2xPOlrlp-cpQFPLSxM&amp;q=Wabool%20AG%2C%20Oberneuhofstrasse%2011%2C%206340&amp;zoom=12" allowFullScreen height="200" width="100%" class="js-google-maps-embed-frame" frameborder="0"></iframe>
+        </div>
+</div>
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec8ad969a10"
+    data-name="space"
+    class="widget widget--zone-widget"
+    data-uniqueid="NefLZREoSIoGLDX"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-space  space  widget__space">
+
+        <div class="spacer  space__spacer" style="height: 50px">&nbsp;</div>
+
+</div>
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec6960a6024"
+    data-name="content"
+    class="widget widget--zone-widget"
+    data-uniqueid="ca9ZfjKk6Mn4iWg"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+        <div class="bk-content-text  content  widget__content  wysihtml-editor-content" itemscope itemtype="https://schema.org/WebPage">
+      <span class="js-text-content content-block" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+
+                    <p style="text-align: left;"><b>Donnerstag: Cham ZG</b></p>
+          
+      </span>
+    </div>
+
+    
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec6997126bc"
+    data-name="map"
+    class="widget widget--zone-widget"
+    data-uniqueid="FLY6EiMcXMBxlWO"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-map  map  widget__map">
+        <div class="embed-wrap  map__embed-wrap  js-map">
+                                                                                                                
+                
+                                            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC8V96sGgzrasorg2xPOlrlp-cpQFPLSxM&amp;q=Weiss%20zum%20Erlenbach%20AG%2C%20Riedstrasse%2010%2C%206330&amp;zoom=15" allowFullScreen height="200" width="100%" class="js-google-maps-embed-frame" frameborder="0"></iframe>
+        </div>
+</div>
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec8b5601083"
+    data-name="space"
+    class="widget widget--zone-widget"
+    data-uniqueid="FFNHuDasOM8MQj1"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-space  space  widget__space">
+
+        <div class="spacer  space__spacer" style="height: 50px">&nbsp;</div>
+
+</div>
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec6a5554e29"
+    data-name="content"
+    class="widget widget--zone-widget"
+    data-uniqueid="At7qaKGO4aXLK8g"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+        <div class="bk-content-text  content  widget__content  wysihtml-editor-content" itemscope itemtype="https://schema.org/WebPage">
+      <span class="js-text-content content-block" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+
+                    <p style="text-align: left;"><b>coming soon: </b><a href="http://puurpuur.ch" target="_blank"><u>puurpuur</u></a>, SBB Areal Kirschloh, Zug</p>
+          
+      </span>
+    </div>
+
+    
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec6ad9a9755"
+    data-name="map"
+    class="widget widget--zone-widget"
+    data-uniqueid="Jf9f15qWif9fO3X"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-map  map  widget__map">
+        <div class="embed-wrap  map__embed-wrap  js-map">
+                                                                                            
+                
+                                            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC8V96sGgzrasorg2xPOlrlp-cpQFPLSxM&amp;q=G%C3%BCterbahnhof%2C%206300&amp;zoom=15" allowFullScreen height="200" width="100%" class="js-google-maps-embed-frame" frameborder="0"></iframe>
+        </div>
+</div>
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec8bb9592a0"
+    data-name="space"
+    class="widget widget--zone-widget"
+    data-uniqueid="1USgtD8QWOi6FuM"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-space  space  widget__space">
+
+        <div class="spacer  space__spacer" style="height: 50px">&nbsp;</div>
+
+</div>
+</div>
+                
+<div
+    id="page-zones__main-widgets__5a68debda71a7"
+    data-name="image"
+    class="widget widget--zone-widget"
+    data-uniqueid="ouVsf7AqUymZrKl"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    
+    
+                
+    
+    
+                
+    
+
+<div class="bk-image  imagewidget  widget__imagewidget  widget-align-center">
+
+        <figure class="figure imagewidget__figure" itemscope itemtype="https://schema.org/ImageObject">
+
+                <a href="https://www.facebook.com/woodypizzatruck/?ref=bookmarks" target="_blank" title="" class="image-link  imagewidget__image-link " itemprop="url">
+
+                        <img class="image  imagewidget__image" src="//files.designer.hoststar.ch/e3/74/e37410fb-8076-442c-a73e-55f1f95513f8.png" alt="" data-path="//files.designer.hoststar.ch/e3/74/e37410fb-8076-442c-a73e-55f1f95513f8.png" title="" data-filename="" data-filesize=""  width= "44"  itemprop="contentURL">
+        </a>
+
+        
+    </figure>
+
+</div>
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec8bc27a3ac"
+    data-name="space"
+    class="widget widget--zone-widget"
+    data-uniqueid="wFVy0CMgiVjCuWx"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-space  space  widget__space">
+
+        <div class="spacer  space__spacer" style="height: 50px">&nbsp;</div>
+
+</div>
+</div>
+                
+<div
+    id="page-zones__main-widgets__5aec76372476f"
+    data-name="content"
+    class="widget widget--zone-widget"
+    data-uniqueid="8coOGM3tb2nIi8X"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+        <div class="bk-content-text  content  widget__content  wysihtml-editor-content" itemscope itemtype="https://schema.org/WebPage">
+      <span class="js-text-content content-block" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+
+                    <p style="text-align: center;"><span class="wysiwyg-font-size-smaller">Woody Pizza c/o CHGC GmbH &nbsp;Christoph Gut &nbsp;Haldenstrasse 38 &nbsp;CH - 8908 Hedingen</span><br><span class="wysiwyg-font-size-smaller">+41 (0)79 349 42 29</span><br><a href="http://www.hochgenuss.net" target="_self"><span class="wysiwyg-font-size-smaller">www.hochgenuss.net</span></a></p>
+          
+      </span>
+    </div>
+
+    
+
+
+</div>
+                
+<div
+    id="page-zones__main-widgets__5b18c619c39ea"
+    data-name="space"
+    class="widget widget--zone-widget"
+    data-uniqueid="5XV8eBSM7uUymHq"
+    data-parentuniqueid="F8PmEXW3N5Tz8Kd"
+>
+
+    <div class="bk-space  space  widget__space">
+
+        <div class="spacer  space__spacer" style="height: 50px">&nbsp;</div>
+
+</div>
+</div>
+    </section>
+
+
+    </section>
+    <!-- End Page Content -->
+
+</div>
+<!-- End Container -->
+
+<!-- Footer -->
+<div class="template-footer">
+
+    <!-- Footer Container -->
+    <div class="flex-container">
+
+        <!-- Page Content -->
+        <div class="flex-item flex-profile1">
+            
+        </div>
+        <div class="flex-item flex-profile2">
+            
+        </div>
+
+    </div>
+    <!-- End Container -->
+</div>
+
+
+
+    
+<script nonce="">
+	App = {};
+    App.i18n = {};
+	App.session = {
+		get: function(key)
+		{
+			var property = null;
+			if (this.data[key] !== null && this.data[key] !== undefined)
+			{
+				return this.data[key];
+			}
+			return property;
+		},
+		data: {
+			siteRef: 12359,
+			domain: 'designer.hoststar.ch',
+            brandRef: '1',
+            assetBaseUrl: 'https://55b558c7-resources.designer.hoststar.ch/a21be498cb',
+            languageCode: 'de',
+            pageRef: 101288,
+            pageLanguage: null		}
+	}
+
+    var Brand = Brand || {};
+    Brand.googleMapsEmbedKey = "AIzaSyC8V96sGgzrasorg2xPOlrlp-cpQFPLSxM";
+</script>
+
+<script nonce="">
+window["Server"] = {"app":{"resizerDomain":"resizer.designer.hoststar.ch","mode":"published","protocol":"http","maintenance":false,"deducedLocale":"de_DE"},"componentTree":{"page":{"page-zones__main":{"page-zones__main-widgets__5a4fb82f3403a":[],"page-zones__main-widgets__5a4fba76e39d8":[],"page-zones__main-widgets__5a50c925e423f":[],"page-zones__main-widgets__5a524101c0b80":[],"page-zones__main-widgets__5ad64c6230e91":[],"page-zones__main-widgets__5a68d88063dd0":[],"page-zones__main-widgets__5a579dd51ba59":[],"page-zones__main-widgets__5a68d8a5a5c96":[],"page-zones__main-widgets__5a5c9f604f1ad":[],"page-zones__main-widgets__5aec679ec8ae8":[],"page-zones__main-widgets__5aec6f47a1fd9":[],"page-zones__main-widgets__5b18c6211a493":[],"page-zones__main-widgets__5b18c4afca412":[],"page-zones__main-widgets__5b18c55e16bc3":[],"page-zones__main-widgets__5aec8a1fd75a0":[],"page-zones__main-widgets__5aec68d67ee13":[],"page-zones__main-widgets__5aec6789dd0b9":[],"page-zones__main-widgets__5aec8d1d223b6":[],"page-zones__main-widgets__5aec694397892":[],"page-zones__main-widgets__5aec698af0a1e":[],"page-zones__main-widgets__5aec8ad969a10":[],"page-zones__main-widgets__5aec6960a6024":[],"page-zones__main-widgets__5aec6997126bc":[],"page-zones__main-widgets__5aec8b5601083":[],"page-zones__main-widgets__5aec6a5554e29":[],"page-zones__main-widgets__5aec6ad9a9755":[],"page-zones__main-widgets__5aec8bb9592a0":[],"page-zones__main-widgets__5a68debda71a7":[],"page-zones__main-widgets__5aec8bc27a3ac":[],"page-zones__main-widgets__5aec76372476f":[],"page-zones__main-widgets__5b18c619c39ea":[]}}},"editorVersion":"eight","page":{"componentTree":{"page":{"page-zones__main":{"page-zones__main-widgets__5a4fb82f3403a":[],"page-zones__main-widgets__5a4fba76e39d8":[],"page-zones__main-widgets__5a50c925e423f":[],"page-zones__main-widgets__5a524101c0b80":[],"page-zones__main-widgets__5ad64c6230e91":[],"page-zones__main-widgets__5a68d88063dd0":[],"page-zones__main-widgets__5a579dd51ba59":[],"page-zones__main-widgets__5a68d8a5a5c96":[],"page-zones__main-widgets__5a5c9f604f1ad":[],"page-zones__main-widgets__5aec679ec8ae8":[],"page-zones__main-widgets__5aec6f47a1fd9":[],"page-zones__main-widgets__5b18c6211a493":[],"page-zones__main-widgets__5b18c4afca412":[],"page-zones__main-widgets__5b18c55e16bc3":[],"page-zones__main-widgets__5aec8a1fd75a0":[],"page-zones__main-widgets__5aec68d67ee13":[],"page-zones__main-widgets__5aec6789dd0b9":[],"page-zones__main-widgets__5aec8d1d223b6":[],"page-zones__main-widgets__5aec694397892":[],"page-zones__main-widgets__5aec698af0a1e":[],"page-zones__main-widgets__5aec8ad969a10":[],"page-zones__main-widgets__5aec6960a6024":[],"page-zones__main-widgets__5aec6997126bc":[],"page-zones__main-widgets__5aec8b5601083":[],"page-zones__main-widgets__5aec6a5554e29":[],"page-zones__main-widgets__5aec6ad9a9755":[],"page-zones__main-widgets__5aec8bb9592a0":[],"page-zones__main-widgets__5a68debda71a7":[],"page-zones__main-widgets__5aec8bc27a3ac":[],"page-zones__main-widgets__5aec76372476f":[],"page-zones__main-widgets__5b18c619c39ea":[]}}},"request":"home","pageTree":[{"ref":"101288","request":"home","canonicalUrl":null,"title":"Home Page","seo_title":"WOODY PIZZA","keywords":"","description":"","display_order":"1","type":"home","template_ref":"1","menu":"1","basekit_objects_ref":null,"modified":"2016-12-16 13:28:36","redirection":null,"priority":"1","changefreq":"monthly","can_publish":"1","headScript":"","bodyScript":"","status":"active","theme_ref":"1","color_swatch_ref":"1","font_swatch_ref":"1","password":null,"do_sub_page":"0","do_default":"0","templateType":"home","hiddenFromNavigation":"0","exclude_from_sitemap":"0","excludeFromPageLimit":"0","parentId":"0","language":null}],"backgroundClass":"bc","customHead":[],"canonicalUrl":"http:\/\/www.woodypizza.ch","language":null,"ref":"101288","title":"WOODY PIZZA","titleInNavAndWidget":"Home Page","description":"Woody Pizza Truck\r\nHolzofenpizza vom Saurer Oldtimer LKW","type":"home","keywords":"Woody Pizza, woodypizza, Holzofenpizza, Foodtruck, Event, Catering, Saurer, Oldtimer, Party, Qualit\u00e4t","seoLang":"de","templateType":"home","headScript":"","bodyScript":""},"pageTree":[{"ref":"101288","request":"home","canonicalUrl":null,"title":"Home Page","seo_title":"WOODY PIZZA","keywords":"","description":"","display_order":"1","type":"home","template_ref":"1","menu":"1","basekit_objects_ref":null,"modified":"2016-12-16 13:28:36","redirection":null,"priority":"1","changefreq":"monthly","can_publish":"1","headScript":"","bodyScript":"","status":"active","theme_ref":"1","color_swatch_ref":"1","font_swatch_ref":"1","password":null,"do_sub_page":"0","do_default":"0","templateType":"home","hiddenFromNavigation":"0","exclude_from_sitemap":"0","excludeFromPageLimit":"0","parentId":"0","language":null}],"requestBase":"","cookieWarningUrl":"","plugins":{"assets":{"images":{"539860":{"ref":539860,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/img_8044.jpg","fileName":"img_8044.jpg","fileType":"image","fileSize":17996,"title":null,"updated":{"date":"2016-12-15 16:18:35.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/img_8044.jpg","imageWidth":320,"imageHeight":240,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"540314":{"ref":540314,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/img_8064.jpg","fileName":"img_8064.jpg","fileType":"image","fileSize":1563732,"title":null,"updated":{"date":"2016-12-16 07:46:48.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/img_8064.jpg","imageWidth":2448,"imageHeight":3264,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"540423":{"ref":540423,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/img_8064_1.jpg","fileName":"img_8064_1.jpg","fileType":"image","fileSize":1563732,"title":null,"updated":{"date":"2016-12-16 09:27:47.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/img_8064_1.jpg","imageWidth":2448,"imageHeight":3264,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"540697":{"ref":540697,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/img_8064_2.jpg","fileName":"img_8064_2.jpg","fileType":"image","fileSize":1563732,"title":null,"updated":{"date":"2016-12-16 12:38:30.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/img_8064_2.jpg","imageWidth":2448,"imageHeight":3264,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"540702":{"ref":540702,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/e677e99a-374f-40a2-970d-aad7385ffca9.jpg","fileName":"e677e99a-374f-40a2-970d-aad7385ffca9.jpg","fileType":"image","fileSize":141732,"title":null,"updated":{"date":"2016-12-16 12:41:05.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/e677e99a-374f-40a2-970d-aad7385ffca9.jpg","imageWidth":768,"imageHeight":603,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"540720":{"ref":540720,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/980a143f-d0da-4e67-a429-cdb924c9accc.jpg","fileName":"980a143f-d0da-4e67-a429-cdb924c9accc.jpg","fileType":"image","fileSize":141568,"title":null,"updated":{"date":"2016-12-16 12:44:50.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/980a143f-d0da-4e67-a429-cdb924c9accc.jpg","imageWidth":768,"imageHeight":603,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"540721":{"ref":540721,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/berna5v.png","fileName":"berna5v.png","fileType":"image","fileSize":352122,"title":null,"updated":{"date":"2016-12-16 12:46:15.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/berna5v.png","imageWidth":601,"imageHeight":339,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"540768":{"ref":540768,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/img_8064_3.jpg","fileName":"img_8064_3.jpg","fileType":"image","fileSize":1563732,"title":null,"updated":{"date":"2016-12-16 13:27:20.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/img_8064_3.jpg","imageWidth":2448,"imageHeight":3264,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"558349":{"ref":558349,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/truck.jpg","fileName":"truck.jpg","fileType":"image","fileSize":1408785,"title":null,"updated":{"date":"2017-01-03 16:02:46.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/truck.jpg","imageWidth":3118,"imageHeight":2154,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"558350":{"ref":558350,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/truck_1.jpg","fileName":"truck_1.jpg","fileType":"image","fileSize":1408785,"title":null,"updated":{"date":"2017-01-03 16:04:40.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/truck_1.jpg","imageWidth":3118,"imageHeight":2154,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"560228":{"ref":560228,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/image001.png","fileName":"image001.png","fileType":"image","fileSize":988908,"title":null,"updated":{"date":"2017-01-04 21:57:14.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/image001.png","imageWidth":1559,"imageHeight":1077,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"564236":{"ref":564236,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/img_8044_1.jpg","fileName":"img_8044_1.jpg","fileType":"image","fileSize":17996,"title":null,"updated":{"date":"2017-01-07 08:34:47.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/img_8044_1.jpg","imageWidth":320,"imageHeight":240,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"564241":{"ref":564241,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/img_8044_2.jpg","fileName":"img_8044_2.jpg","fileType":"image","fileSize":100197,"title":null,"updated":{"date":"2017-01-07 08:37:30.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/img_8044_2.jpg","imageWidth":640,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"564248":{"ref":564248,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/img_8044_3.jpg","fileName":"img_8044_3.jpg","fileType":"image","fileSize":4257272,"title":null,"updated":{"date":"2017-01-07 08:42:07.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/img_8044_3.jpg","imageWidth":3264,"imageHeight":2448,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"564251":{"ref":564251,"url":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/bildschirmfoto2017-01-07um09.42.56.png","fileName":"bildschirmfoto2017-01-07um09.42.56.png","fileType":"image","fileSize":1787690,"title":null,"updated":{"date":"2017-01-07 08:43:43.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"hoststar12359\/image\/bildschirmfoto2017-01-07um09.42.56.png","imageWidth":1024,"imageHeight":899,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1043645":{"ref":1043645,"url":"http:\/\/files.designer.hoststar.ch\/44\/1a\/441abffa-f151-4724-b11b-57af90ae8f83.png","fileName":"woodypizza_final_cmyk.png","fileType":"image","fileSize":39758,"title":null,"updated":{"date":"2018-01-05 17:13:24.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"44\/1a\/441abffa-f151-4724-b11b-57af90ae8f83.png","imageWidth":320,"imageHeight":260,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1043646":{"ref":1043646,"url":"http:\/\/files.designer.hoststar.ch\/df\/21\/df216921-6253-45b7-9d35-21f7f1118de1.png","fileName":"27290342-1a5a-4b53-a1ab-43c51c42b82b.png","fileType":"image","fileSize":124056,"title":null,"updated":{"date":"2018-01-05 17:14:20.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"df\/21\/df216921-6253-45b7-9d35-21f7f1118de1.png","imageWidth":600,"imageHeight":487,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1043681":{"ref":1043681,"url":"http:\/\/files.designer.hoststar.ch\/49\/d4\/49d4df59-7538-4327-afdb-7b2bd13611f4.png","fileName":"woodypizza_final_cmyk (1).png","fileType":"image","fileSize":89567,"title":null,"updated":{"date":"2018-01-05 17:25:28.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"49\/d4\/49d4df59-7538-4327-afdb-7b2bd13611f4.png","imageWidth":640,"imageHeight":519,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1043741":{"ref":1043741,"url":"http:\/\/files.designer.hoststar.ch\/eb\/6c\/eb6cb423-fad1-4aa0-bca5-14cc99111620.jpg","fileName":"IMG_0132.jpg","fileType":"image","fileSize":2036504,"title":null,"updated":{"date":"2018-01-05 18:07:33.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"eb\/6c\/eb6cb423-fad1-4aa0-bca5-14cc99111620.jpg","imageWidth":4032,"imageHeight":3024,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"complete","compressedUrl":"http:\/\/files.designer.hoststar.ch\/5c\/09\/5c097ef9-aec3-44bc-9f97-c445b7206f45.jpg"},"1043753":{"ref":1043753,"url":"http:\/\/files.designer.hoststar.ch\/6d\/6f\/6d6f5faf-2532-4dbe-9579-6d0bb8bf223a.jpg","fileName":"DSC_0135 2.jpg","fileType":"image","fileSize":555676,"title":null,"updated":{"date":"2018-01-05 18:10:11.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"6d\/6f\/6d6f5faf-2532-4dbe-9579-6d0bb8bf223a.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1043766":{"ref":1043766,"url":"http:\/\/files.designer.hoststar.ch\/b4\/6c\/b46c61cc-d7a3-490a-95f9-d39c0cddeac4.png","fileName":"woodypizza_final_cmyk (2).png","fileType":"image","fileSize":200916,"title":null,"updated":{"date":"2018-01-05 18:15:56.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"b4\/6c\/b46c61cc-d7a3-490a-95f9-d39c0cddeac4.png","imageWidth":1280,"imageHeight":1038,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1043780":{"ref":1043780,"url":"http:\/\/files.designer.hoststar.ch\/b1\/fa\/b1faf66e-fce4-46fd-904f-b883bac4a2c0.png","fileName":"woodypizza_final_cmyk (2).png","fileType":"image","fileSize":200916,"title":null,"updated":{"date":"2018-01-05 18:20:21.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"b1\/fa\/b1faf66e-fce4-46fd-904f-b883bac4a2c0.png","imageWidth":1280,"imageHeight":1038,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1043788":{"ref":1043788,"url":"http:\/\/files.designer.hoststar.ch\/aa\/77\/aa776407-4b12-4f74-9c6a-e05d7390bc66.jpg","fileName":"3eeb8a57-be85-4583-a13f-fbc67bf41146.jpg","fileType":"image","fileSize":197704,"title":null,"updated":{"date":"2018-01-05 18:22:14.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"aa\/77\/aa776407-4b12-4f74-9c6a-e05d7390bc66.jpg","imageWidth":1024,"imageHeight":683,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1043792":{"ref":1043792,"url":"http:\/\/files.designer.hoststar.ch\/e0\/11\/e0110759-2190-4a72-a7b9-42451856ea56.jpg","fileName":"d86bcdcc-ac30-4c0e-a2f3-e08ba60e335e.jpg","fileType":"image","fileSize":96180,"title":null,"updated":{"date":"2018-01-05 18:23:10.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"e0\/11\/e0110759-2190-4a72-a7b9-42451856ea56.jpg","imageWidth":700,"imageHeight":466,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1044447":{"ref":1044447,"url":"http:\/\/files.designer.hoststar.ch\/69\/ab\/69ab10c7-33ac-48d3-bd37-25bd422c0c33.jpg","fileName":"Saurer_Schriftzug_Stoff.jpg","fileType":"image","fileSize":290065,"title":null,"updated":{"date":"2018-01-06 11:39:47.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"69\/ab\/69ab10c7-33ac-48d3-bd37-25bd422c0c33.jpg","imageWidth":1589,"imageHeight":412,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1044450":{"ref":1044450,"url":"http:\/\/files.designer.hoststar.ch\/ad\/4b\/ad4b99d5-3a82-4899-a93e-9c25ee3325ea.jpg","fileName":"f1769294-b7c6-45d4-a7b4-c56e174403b1.jpg","fileType":"image","fileSize":99633,"title":null,"updated":{"date":"2018-01-06 11:41:00.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"ad\/4b\/ad4b99d5-3a82-4899-a93e-9c25ee3325ea.jpg","imageWidth":1019,"imageHeight":261,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1044470":{"ref":1044470,"url":"http:\/\/files.designer.hoststar.ch\/c6\/3c\/c63c240f-d0b6-4e19-8229-f62a64f63dcc.png","fileName":"woodypizza_final_cmyk (2).png","fileType":"image","fileSize":200916,"title":null,"updated":{"date":"2018-01-06 11:51:32.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"c6\/3c\/c63c240f-d0b6-4e19-8229-f62a64f63dcc.png","imageWidth":1280,"imageHeight":1038,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1044509":{"ref":1044509,"url":"http:\/\/files.designer.hoststar.ch\/c4\/0c\/c40c1b81-b328-4805-8475-9e4ce271446d.png","fileName":"DSC_0124.png","fileType":"image","fileSize":505034,"title":null,"updated":{"date":"2018-01-06 12:28:14.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"c4\/0c\/c40c1b81-b328-4805-8475-9e4ce271446d.png","imageWidth":640,"imageHeight":427,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1044510":{"ref":1044510,"url":"http:\/\/files.designer.hoststar.ch\/db\/4e\/db4e3cfc-9b7c-46f7-96d1-d36a90ef7b3f.png","fileName":"DSC_0134.png","fileType":"image","fileSize":484567,"title":null,"updated":{"date":"2018-01-06 12:28:14.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"db\/4e\/db4e3cfc-9b7c-46f7-96d1-d36a90ef7b3f.png","imageWidth":640,"imageHeight":427,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1044511":{"ref":1044511,"url":"http:\/\/files.designer.hoststar.ch\/69\/65\/6965e7c9-54a3-4c1a-befd-6354f2843a66.png","fileName":"DSC_0551.png","fileType":"image","fileSize":399868,"title":null,"updated":{"date":"2018-01-06 12:28:15.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"69\/65\/6965e7c9-54a3-4c1a-befd-6354f2843a66.png","imageWidth":640,"imageHeight":427,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1044512":{"ref":1044512,"url":"http:\/\/files.designer.hoststar.ch\/b1\/de\/b1defbd9-9ca9-4b49-8bed-fd7567e3d7bf.png","fileName":"IMG_0156.png","fileType":"image","fileSize":477782,"title":null,"updated":{"date":"2018-01-06 12:28:16.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"b1\/de\/b1defbd9-9ca9-4b49-8bed-fd7567e3d7bf.png","imageWidth":640,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1044513":{"ref":1044513,"url":"http:\/\/files.designer.hoststar.ch\/34\/65\/3465a6ad-9f16-476d-a3be-e24fdf0e6c1f.png","fileName":"IMG_9702.png","fileType":"image","fileSize":486872,"title":null,"updated":{"date":"2018-01-06 12:28:16.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"34\/65\/3465a6ad-9f16-476d-a3be-e24fdf0e6c1f.png","imageWidth":640,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1044514":{"ref":1044514,"url":"http:\/\/files.designer.hoststar.ch\/6a\/18\/6a18e385-5f5b-4612-9bde-3992fb7257d8.png","fileName":"DSC_0619.png","fileType":"image","fileSize":443889,"title":null,"updated":{"date":"2018-01-06 12:30:31.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"6a\/18\/6a18e385-5f5b-4612-9bde-3992fb7257d8.png","imageWidth":640,"imageHeight":427,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1045843":{"ref":1045843,"url":"http:\/\/files.designer.hoststar.ch\/96\/57\/965700ea-61dd-498e-9269-f0d062404bfc.png","fileName":"Saurer_Logo (1).png","fileType":"image","fileSize":133750,"title":"Foodtruck","updated":{"date":"2018-01-07 10:21:18.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"96\/57\/965700ea-61dd-498e-9269-f0d062404bfc.png","imageWidth":501,"imageHeight":500,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1045925":{"ref":1045925,"url":"http:\/\/files.designer.hoststar.ch\/4f\/97\/4f973bed-d010-4512-bc14-0f3296820b63.png","fileName":"Logo Saurer Freigestelllt.png","fileType":"image","fileSize":67547,"title":null,"updated":{"date":"2018-01-07 11:10:38.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"4f\/97\/4f973bed-d010-4512-bc14-0f3296820b63.png","imageWidth":480,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1045929":{"ref":1045929,"url":"http:\/\/files.designer.hoststar.ch\/9b\/a6\/9ba6bf8e-371a-40fe-a73f-2092f9c0e7d3.png","fileName":"70c1ebb3-3f5f-4cb8-b5ed-0791379fba6d.png","fileType":"image","fileSize":81165,"title":null,"updated":{"date":"2018-01-07 11:14:23.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"9b\/a6\/9ba6bf8e-371a-40fe-a73f-2092f9c0e7d3.png","imageWidth":480,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1045931":{"ref":1045931,"url":"http:\/\/files.designer.hoststar.ch\/05\/ae\/05ae8a0b-06f8-42d0-b268-6395a269dc56.png","fileName":"Logo Saurer Freigestelllt.png","fileType":"image","fileSize":67547,"title":null,"updated":{"date":"2018-01-07 11:14:58.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"05\/ae\/05ae8a0b-06f8-42d0-b268-6395a269dc56.png","imageWidth":480,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1046482":{"ref":1046482,"url":"http:\/\/files.designer.hoststar.ch\/6c\/47\/6c478f37-a719-496c-99d3-17a43080c4e4.png","fileName":"Logog_Saurer_FG_SW.png","fileType":"image","fileSize":98826,"title":null,"updated":{"date":"2018-01-07 15:45:55.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"6c\/47\/6c478f37-a719-496c-99d3-17a43080c4e4.png","imageWidth":1044,"imageHeight":1041,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1048650":{"ref":1048650,"url":"http:\/\/files.designer.hoststar.ch\/da\/6d\/da6db1dc-84ab-4b0f-b990-68a6a6eba58e.png","fileName":"IMG_0026.png","fileType":"image","fileSize":461495,"title":null,"updated":{"date":"2018-01-08 10:00:49.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"da\/6d\/da6db1dc-84ab-4b0f-b990-68a6a6eba58e.png","imageWidth":640,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1048651":{"ref":1048651,"url":"http:\/\/files.designer.hoststar.ch\/a8\/e8\/a8e8edc8-6d9f-4921-9c62-fd7dca30e7ed.png","fileName":"IMG_0036.png","fileType":"image","fileSize":551802,"title":null,"updated":{"date":"2018-01-08 10:00:50.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"a8\/e8\/a8e8edc8-6d9f-4921-9c62-fd7dca30e7ed.png","imageWidth":640,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1048652":{"ref":1048652,"url":"http:\/\/files.designer.hoststar.ch\/c4\/5c\/c45ccaca-f28f-4a86-826e-92197831941d.png","fileName":"IMG_0132.png","fileType":"image","fileSize":481075,"title":null,"updated":{"date":"2018-01-08 10:00:50.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"c4\/5c\/c45ccaca-f28f-4a86-826e-92197831941d.png","imageWidth":640,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054551":{"ref":1054551,"url":"http:\/\/files.designer.hoststar.ch\/78\/86\/7886c6b8-0571-43e8-b671-95555d19a292.jpg","fileName":"DSC_0146.jpg","fileType":"image","fileSize":213576,"title":null,"updated":{"date":"2018-01-11 14:33:13.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"78\/86\/7886c6b8-0571-43e8-b671-95555d19a292.jpg","imageWidth":543,"imageHeight":362,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054575":{"ref":1054575,"url":"http:\/\/files.designer.hoststar.ch\/15\/0d\/150d370e-603c-4c2c-8277-08ab1a579b1e.jpg","fileName":"DSC_0146.jpg","fileType":"image","fileSize":213576,"title":null,"updated":{"date":"2018-01-11 14:45:55.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"15\/0d\/150d370e-603c-4c2c-8277-08ab1a579b1e.jpg","imageWidth":543,"imageHeight":362,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054576":{"ref":1054576,"url":"http:\/\/files.designer.hoststar.ch\/23\/db\/23db830a-be0d-47ef-91d6-174d39463ee4.jpg","fileName":"DSC_0146.jpg","fileType":"image","fileSize":213576,"title":null,"updated":{"date":"2018-01-11 14:47:09.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"23\/db\/23db830a-be0d-47ef-91d6-174d39463ee4.jpg","imageWidth":543,"imageHeight":362,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054578":{"ref":1054578,"url":"http:\/\/files.designer.hoststar.ch\/30\/22\/30222eb7-dece-4a61-b4a2-d58c11cb4d09.jpg","fileName":"DSC_0146.jpg","fileType":"image","fileSize":213576,"title":null,"updated":{"date":"2018-01-11 14:48:02.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"30\/22\/30222eb7-dece-4a61-b4a2-d58c11cb4d09.jpg","imageWidth":543,"imageHeight":362,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054585":{"ref":1054585,"url":"http:\/\/files.designer.hoststar.ch\/c8\/ad\/c8ad12fa-6c5a-40cb-ac42-0b17ef6376ba.jpg","fileName":"DSC_0161.jpg","fileType":"image","fileSize":262087,"title":null,"updated":{"date":"2018-01-11 14:51:28.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"c8\/ad\/c8ad12fa-6c5a-40cb-ac42-0b17ef6376ba.jpg","imageWidth":543,"imageHeight":362,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054597":{"ref":1054597,"url":"http:\/\/files.designer.hoststar.ch\/01\/0a\/010aa718-bc73-438a-91aa-6389b25c8996.png","fileName":"DSC_0144.png","fileType":"image","fileSize":403996,"title":null,"updated":{"date":"2018-01-11 14:57:54.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"01\/0a\/010aa718-bc73-438a-91aa-6389b25c8996.png","imageWidth":640,"imageHeight":427,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054601":{"ref":1054601,"url":"http:\/\/files.designer.hoststar.ch\/56\/c6\/56c6c4c3-80cc-48d3-b2f4-58c3842a15b6.jpg","fileName":"DSC_0144.jpg","fileType":"image","fileSize":132211,"title":null,"updated":{"date":"2018-01-11 14:59:56.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"56\/c6\/56c6c4c3-80cc-48d3-b2f4-58c3842a15b6.jpg","imageWidth":1280,"imageHeight":853,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054608":{"ref":1054608,"url":"http:\/\/files.designer.hoststar.ch\/c3\/57\/c35732a3-64a3-4a74-9202-b1ffaf121934.png","fileName":"woodypizza_final_cmyk (1).png","fileType":"image","fileSize":89567,"title":null,"updated":{"date":"2018-01-11 15:03:55.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"c3\/57\/c35732a3-64a3-4a74-9202-b1ffaf121934.png","imageWidth":640,"imageHeight":519,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054610":{"ref":1054610,"url":"http:\/\/files.designer.hoststar.ch\/b1\/77\/b1772a9f-26da-4bac-9604-668dcb502182.jpg","fileName":"DSC_0144.jpg","fileType":"image","fileSize":132211,"title":null,"updated":{"date":"2018-01-11 15:04:37.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"b1\/77\/b1772a9f-26da-4bac-9604-668dcb502182.jpg","imageWidth":1280,"imageHeight":853,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054683":{"ref":1054683,"url":"http:\/\/files.designer.hoststar.ch\/16\/21\/16212168-0860-4d4b-8fab-2fb473aa012e.jpg","fileName":"DSC_0144 (1).jpg","fileType":"image","fileSize":555807,"title":null,"updated":{"date":"2018-01-11 15:18:22.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"16\/21\/16212168-0860-4d4b-8fab-2fb473aa012e.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054693":{"ref":1054693,"url":"http:\/\/files.designer.hoststar.ch\/8a\/27\/8a273dbc-3cf5-46d8-9e20-e6ec98c337be.jpg","fileName":"DSC_0144 (1).jpg","fileType":"image","fileSize":555807,"title":null,"updated":{"date":"2018-01-11 15:23:03.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"8a\/27\/8a273dbc-3cf5-46d8-9e20-e6ec98c337be.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054696":{"ref":1054696,"url":"http:\/\/files.designer.hoststar.ch\/d4\/8f\/d48f54e4-b2a0-499a-8d40-ed33eebcb9db.png","fileName":"woodypizza_final_cmyk (2).png","fileType":"image","fileSize":200916,"title":null,"updated":{"date":"2018-01-11 15:24:39.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"d4\/8f\/d48f54e4-b2a0-499a-8d40-ed33eebcb9db.png","imageWidth":1280,"imageHeight":1038,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054701":{"ref":1054701,"url":"http:\/\/files.designer.hoststar.ch\/8d\/ca\/8dcadf2f-396f-4d2f-b7bb-49ea7f6a71e6.jpg","fileName":"DSC_0144 (1).jpg","fileType":"image","fileSize":555807,"title":null,"updated":{"date":"2018-01-11 15:28:02.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"8d\/ca\/8dcadf2f-396f-4d2f-b7bb-49ea7f6a71e6.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054712":{"ref":1054712,"url":"http:\/\/files.designer.hoststar.ch\/00\/bb\/00bb471a-b843-4360-8c1f-cd212f5685c9.jpg","fileName":"DSC_0144 (1).jpg","fileType":"image","fileSize":555807,"title":null,"updated":{"date":"2018-01-11 15:35:09.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"00\/bb\/00bb471a-b843-4360-8c1f-cd212f5685c9.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054732":{"ref":1054732,"url":"http:\/\/files.designer.hoststar.ch\/bd\/21\/bd21f276-6d2f-433c-89a2-d64e86d5cc6d.jpg","fileName":"DSC_0152.jpg","fileType":"image","fileSize":584339,"title":null,"updated":{"date":"2018-01-11 15:44:31.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"bd\/21\/bd21f276-6d2f-433c-89a2-d64e86d5cc6d.jpg","imageWidth":2300,"imageHeight":1210,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054733":{"ref":1054733,"url":"http:\/\/files.designer.hoststar.ch\/2d\/40\/2d400a6e-6fe6-4c48-9dae-d007c6902e63.jpg","fileName":"DSC_0152 (1).jpg","fileType":"image","fileSize":37657,"title":null,"updated":{"date":"2018-01-11 15:46:26.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"2d\/40\/2d400a6e-6fe6-4c48-9dae-d007c6902e63.jpg","imageWidth":90,"imageHeight":72,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054735":{"ref":1054735,"url":"http:\/\/files.designer.hoststar.ch\/ff\/9b\/ff9b349c-3368-42b3-9e18-a5751130fdc1.jpg","fileName":"DSC_0152 (1).jpg","fileType":"image","fileSize":115143,"title":null,"updated":{"date":"2018-01-11 15:49:25.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"ff\/9b\/ff9b349c-3368-42b3-9e18-a5751130fdc1.jpg","imageWidth":1280,"imageHeight":666,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054736":{"ref":1054736,"url":"http:\/\/files.designer.hoststar.ch\/bd\/ac\/bdacb560-8df9-430c-841d-b147e1294ce3.jpg","fileName":"DSC_0152 (2).jpg","fileType":"image","fileSize":114797,"title":null,"updated":{"date":"2018-01-11 15:50:57.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"bd\/ac\/bdacb560-8df9-430c-841d-b147e1294ce3.jpg","imageWidth":1280,"imageHeight":614,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054740":{"ref":1054740,"url":"http:\/\/files.designer.hoststar.ch\/0b\/5e\/0b5e79af-423b-49cb-bd55-3563d407b4ea.jpg","fileName":"DSC_0152 (3).jpg","fileType":"image","fileSize":46630,"title":null,"updated":{"date":"2018-01-11 15:52:07.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"0b\/5e\/0b5e79af-423b-49cb-bd55-3563d407b4ea.jpg","imageWidth":112,"imageHeight":54,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054741":{"ref":1054741,"url":"http:\/\/files.designer.hoststar.ch\/ad\/bf\/adbfb82c-f23c-44cc-96e5-65d03d72e39e.jpg","fileName":"DSC_0152 (4).jpg","fileType":"image","fileSize":346381,"title":null,"updated":{"date":"2018-01-11 15:53:58.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"ad\/bf\/adbfb82c-f23c-44cc-96e5-65d03d72e39e.jpg","imageWidth":2304,"imageHeight":1246,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054869":{"ref":1054869,"url":"http:\/\/files.designer.hoststar.ch\/30\/82\/30826bd6-db1f-45f1-9700-aee6da8a8b08.jpg","fileName":"DSC_0152 (1).jpg","fileType":"image","fileSize":115143,"title":null,"updated":{"date":"2018-01-11 17:14:33.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"30\/82\/30826bd6-db1f-45f1-9700-aee6da8a8b08.jpg","imageWidth":1280,"imageHeight":666,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054881":{"ref":1054881,"url":"http:\/\/files.designer.hoststar.ch\/d7\/20\/d720a186-ce46-4c10-887e-0d2f66789cb1.jpg","fileName":"DSC_0131.jpg","fileType":"image","fileSize":409242,"title":null,"updated":{"date":"2018-01-11 17:44:29.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"d7\/20\/d720a186-ce46-4c10-887e-0d2f66789cb1.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054882":{"ref":1054882,"url":"http:\/\/files.designer.hoststar.ch\/5c\/55\/5c556467-c786-46ca-bedd-cb1278a2b596.jpg","fileName":"DSC_0146.jpg","fileType":"image","fileSize":372954,"title":null,"updated":{"date":"2018-01-11 17:44:29.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"5c\/55\/5c556467-c786-46ca-bedd-cb1278a2b596.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054883":{"ref":1054883,"url":"http:\/\/files.designer.hoststar.ch\/b5\/41\/b541536e-67b3-4241-90f7-38e06b2bacd8.jpg","fileName":"DSC_0151.jpg","fileType":"image","fileSize":462282,"title":null,"updated":{"date":"2018-01-11 17:44:30.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"b5\/41\/b541536e-67b3-4241-90f7-38e06b2bacd8.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054884":{"ref":1054884,"url":"http:\/\/files.designer.hoststar.ch\/91\/fd\/91fde987-4ece-4abd-a217-471045d459e8.jpg","fileName":"DSC_0161.jpg","fileType":"image","fileSize":410835,"title":null,"updated":{"date":"2018-01-11 17:44:31.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"91\/fd\/91fde987-4ece-4abd-a217-471045d459e8.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054885":{"ref":1054885,"url":"http:\/\/files.designer.hoststar.ch\/ff\/de\/ffde34ff-2c87-415d-9627-200bc48c0a6b.jpg","fileName":"DSC_0445.jpg","fileType":"image","fileSize":368508,"title":null,"updated":{"date":"2018-01-11 17:44:31.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"ff\/de\/ffde34ff-2c87-415d-9627-200bc48c0a6b.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054886":{"ref":1054886,"url":"http:\/\/files.designer.hoststar.ch\/53\/d8\/53d80bdc-4510-4e9a-808e-0f2c830aa24f.jpg","fileName":"DSC_0552.jpg","fileType":"image","fileSize":474673,"title":null,"updated":{"date":"2018-01-11 17:44:32.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"53\/d8\/53d80bdc-4510-4e9a-808e-0f2c830aa24f.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1054887":{"ref":1054887,"url":"http:\/\/files.designer.hoststar.ch\/a4\/a4\/a4a4c4ef-554a-45cc-8872-fffb43d99b47.jpg","fileName":"IMG_0026.jpg","fileType":"image","fileSize":1022415,"title":null,"updated":{"date":"2018-01-11 17:44:33.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"a4\/a4\/a4a4c4ef-554a-45cc-8872-fffb43d99b47.jpg","imageWidth":4032,"imageHeight":3024,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"complete","compressedUrl":"http:\/\/files.designer.hoststar.ch\/f3\/fd\/f3fd8552-4ea0-48ee-b250-77de4bba47eb.jpg"},"1054888":{"ref":1054888,"url":"http:\/\/files.designer.hoststar.ch\/2a\/ce\/2ace5141-60b0-49c0-84b6-998faa639de0.jpg","fileName":"IMG_0036.jpg","fileType":"image","fileSize":1199942,"title":null,"updated":{"date":"2018-01-11 17:44:35.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"2a\/ce\/2ace5141-60b0-49c0-84b6-998faa639de0.jpg","imageWidth":4032,"imageHeight":3024,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"complete","compressedUrl":"http:\/\/files.designer.hoststar.ch\/4f\/f8\/4ff8e381-413d-42b1-9d28-50d77e0dbfb8.jpg"},"1054889":{"ref":1054889,"url":"http:\/\/files.designer.hoststar.ch\/2b\/6d\/2b6dbff0-e4ac-46db-91d7-b06a32707ac9.jpg","fileName":"IMG_0132.jpg","fileType":"image","fileSize":963984,"title":null,"updated":{"date":"2018-01-11 17:44:36.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"2b\/6d\/2b6dbff0-e4ac-46db-91d7-b06a32707ac9.jpg","imageWidth":4032,"imageHeight":3024,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1060376":{"ref":1060376,"url":"http:\/\/files.designer.hoststar.ch\/66\/42\/66429712-8553-49ab-b60e-545950cc497b.png","fileName":"woodypizza_final_cmyk (2).png","fileType":"image","fileSize":200916,"title":null,"updated":{"date":"2018-01-15 12:32:51.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"66\/42\/66429712-8553-49ab-b60e-545950cc497b.png","imageWidth":1280,"imageHeight":1038,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1078255":{"ref":1078255,"url":"http:\/\/files.designer.hoststar.ch\/4f\/75\/4f75caa5-44dd-4247-9946-3d6eb54d8817.jpg","fileName":"IMG_0216.jpg","fileType":"image","fileSize":43627,"title":null,"updated":{"date":"2018-01-24 18:47:38.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"4f\/75\/4f75caa5-44dd-4247-9946-3d6eb54d8817.jpg","imageWidth":480,"imageHeight":640,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1078256":{"ref":1078256,"url":"http:\/\/files.designer.hoststar.ch\/e2\/97\/e2970e3f-ab68-44ac-b21a-c20358e424bb.jpg","fileName":"IMG_0216.jpg","fileType":"image","fileSize":43627,"title":null,"updated":{"date":"2018-01-24 18:48:50.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"e2\/97\/e2970e3f-ab68-44ac-b21a-c20358e424bb.jpg","imageWidth":480,"imageHeight":640,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1078266":{"ref":1078266,"url":"http:\/\/files.designer.hoststar.ch\/01\/bd\/01bd4b71-dc40-43b2-982b-9f565f0d2566.jpg","fileName":"IMG_0216 (1).jpg","fileType":"image","fileSize":54532,"title":null,"updated":{"date":"2018-01-24 18:59:44.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"01\/bd\/01bd4b71-dc40-43b2-982b-9f565f0d2566.jpg","imageWidth":640,"imageHeight":494,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1078279":{"ref":1078279,"url":"http:\/\/files.designer.hoststar.ch\/b3\/3b\/b33b90cd-22ef-4ba7-bac2-d5d9113daa5e.jpg","fileName":"IMG_0215.jpg","fileType":"image","fileSize":43128,"title":null,"updated":{"date":"2018-01-24 19:07:38.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"b3\/3b\/b33b90cd-22ef-4ba7-bac2-d5d9113daa5e.jpg","imageWidth":640,"imageHeight":370,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1078282":{"ref":1078282,"url":"http:\/\/files.designer.hoststar.ch\/f0\/48\/f04813f6-376c-4d8d-bef6-06a41fb6f4b9.jpg","fileName":"ed80211b-e5a4-42b2-a7ba-12de83dbbd88.jpg","fileType":"image","fileSize":57484,"title":null,"updated":{"date":"2018-01-24 19:09:31.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"f0\/48\/f04813f6-376c-4d8d-bef6-06a41fb6f4b9.jpg","imageWidth":616,"imageHeight":357,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1078287":{"ref":1078287,"url":"http:\/\/files.designer.hoststar.ch\/73\/7f\/737fce0f-17cf-4eb3-b145-f2cfe4793d71.jpg","fileName":"968260c6-dc36-4a99-a689-9fb9480e9866.jpg","fileType":"image","fileSize":76987,"title":null,"updated":{"date":"2018-01-24 19:10:29.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"73\/7f\/737fce0f-17cf-4eb3-b145-f2cfe4793d71.jpg","imageWidth":640,"imageHeight":447,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1078292":{"ref":1078292,"url":"http:\/\/files.designer.hoststar.ch\/8b\/84\/8b84683f-e78a-4c20-a2f1-e6de3f68bf98.jpg","fileName":"0a073932-ced5-4e36-b695-f5eb01264370.jpg","fileType":"image","fileSize":63988,"title":null,"updated":{"date":"2018-01-24 19:14:23.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"8b\/84\/8b84683f-e78a-4c20-a2f1-e6de3f68bf98.jpg","imageWidth":640,"imageHeight":346,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1078303":{"ref":1078303,"url":"http:\/\/files.designer.hoststar.ch\/78\/c6\/78c62291-6e16-471d-b69b-90dfe7ade2c2.png","fileName":"facebook-150x150.png","fileType":"image","fileSize":4434,"title":null,"updated":{"date":"2018-01-24 19:31:59.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"78\/c6\/78c62291-6e16-471d-b69b-90dfe7ade2c2.png","imageWidth":150,"imageHeight":150,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1078305":{"ref":1078305,"url":"http:\/\/files.designer.hoststar.ch\/a9\/50\/a9500c32-5c49-463c-a56f-770dc12ec2b7.png","fileName":"890db200-681a-4008-8b5c-b142a8197610.png","fileType":"image","fileSize":3213,"title":null,"updated":{"date":"2018-01-24 19:32:39.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"a9\/50\/a9500c32-5c49-463c-a56f-770dc12ec2b7.png","imageWidth":75,"imageHeight":75,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null},"1078306":{"ref":1078306,"url":"http:\/\/files.designer.hoststar.ch\/e3\/74\/e37410fb-8076-442c-a73e-55f1f95513f8.png","fileName":"e4eee927-6164-420f-8b42-d740a3b3a6aa.png","fileType":"image","fileSize":2096,"title":null,"updated":{"date":"2018-01-24 19:34:05.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"e3\/74\/e37410fb-8076-442c-a73e-55f1f95513f8.png","imageWidth":44,"imageHeight":48,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null}},"albums":{"":[539860,539860,540314,540314,540423,540423,540697,540697,540702,540702,540720,540720,540721,540721,540768,540768,558349,558349,558350,558350,560228,560228,564236,564236,564241,564241,564248,564248,564251,564251,1043645,1043645,1043646,1043646,1043681,1043681,1043741,1043741,1043753,1043753,1043766,1043766,1043780,1043780,1043788,1043788,1043792,1043792,1044447,1044447,1044450,1044450,1044470,1044470,1044509,1044509,1044510,1044510,1044511,1044511,1044512,1044512,1044513,1044513,1044514,1044514,1045843,1045843,1045925,1045925,1045929,1045929,1045931,1045931,1046482,1046482,1048650,1048650,1048651,1048651,1048652,1048652,1054551,1054551,1054575,1054575,1054576,1054576,1054578,1054578,1054585,1054585,1054597,1054597,1054601,1054601,1054608,1054608,1054610,1054610,1054683,1054683,1054693,1054693,1054696,1054696,1054701,1054701,1054712,1054712,1054732,1054732,1054733,1054733,1054735,1054735,1054736,1054736,1054740,1054740,1054741,1054741,1054869,1054869,1054881,1054881,1054882,1054882,1054883,1054883,1054884,1054884,1054885,1054885,1054886,1054886,1054887,1054887,1054888,1054888,1054889,1054889,1060376,1060376,1078255,1078255,1078256,1078256,1078266,1078266,1078279,1078279,1078282,1078282,1078287,1078287,1078292,1078292,1078303,1078303,1078305,1078305,1078306,1078306]}}},"desktopSite":{"protocol":"http","primaryDomain":{"domainName":"www.woodypizza.ch"}},"siteLanguages":[],"siteDefaultLanguage":{"language":"de","name":"Deutsch","localisedName":"Deutsch"},"siteLanguageMenuSettings":null,"siteCurrentLanguage":null};
+window["Profile"] = {"profile":{"business":"WOODY PIZZA","headline":"","strapline":"","companydescription":"","copyright":"","address":"","address1":"","address2":"","postalcode":"","country":"","phone":"","twitter":"hoststarhosting","linkedin":"","facebook":"","googleplus":"","youtube":"","rss":"","logo":"http:\/\/files.designer.hoststar.ch\/d4\/8f\/d48f54e4-b2a0-499a-8d40-ed33eebcb9db.png","logowidth":"1280","logoheight":"1038","yelpbusinessid":"","featureimage":"http:\/\/files.designer.hoststar.ch\/hoststar12359\/image\/bildschirmfoto2017-01-07um09.42.56.png","countryCode":"","instagram":"","pinterest":""}};
+</script>
+
+<script nonce="">
+    Server.components = {"page-zones__main":{"ref":"653366","uniqueHTMLId":"page-zones__main","name":"main","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.template","data":[],"className":"template","widget":{},"uniqueId":"F8PmEXW3N5Tz8Kd","parentUniqueId":null},"page-zones__main-widgets__5a4fb82f3403a":{"ref":"1341468","uniqueHTMLId":"page-zones__main-widgets__5a4fb82f3403a","name":"5a4fb82f3403a","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.content","data":{"type":"widget.content","content":"<p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\"><b><span class=\"wysiwyg-font-size-xx-large\">WOODY PIZZA TRUCK<\/span><\/b><\/span><\/p><p style=\"text-align: center;\"><span class=\"wysiwyg-font-size-larger\"><span style=\"color: rgb(0, 0, 0);\">PIZZA AUS DEM HOLZOFEN<\/span><\/span><\/p>","localClass":"widget-content-O72KH2","uniqueId":"pVsIL1tNko8UTSt"},"className":"content","widget":{},"uniqueId":"pVsIL1tNko8UTSt","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5a4fba76e39d8":{"ref":"1341482","uniqueHTMLId":"page-zones__main-widgets__5a4fba76e39d8","name":"5a4fba76e39d8","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.content","data":{"type":"widget.content","content":"<div style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\"><span class=\"wysiwyg-font-size-larger\">STREETFOOD<\/span><\/span><\/div><div style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\"><span class=\"wysiwyg-font-size-larger\">EVENTS &amp; CATERING<\/span><\/span><\/div>","localClass":"widget-content-X6WUS6","uniqueId":"fhUJfJoJHk8MjF1"},"className":"content","widget":{},"uniqueId":"fhUJfJoJHk8MjF1","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5a50c925e423f":{"ref":"1342343","uniqueHTMLId":"page-zones__main-widgets__5a50c925e423f","name":"5a50c925e423f","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.content","data":{"type":"widget.content","content":"<p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\"><a href=\"mailto:booking@woodypizza.ch\" target=\"_self\"><span class=\"wysiwyg-font-size-larger\">booking@woodypizza.ch<\/span><\/a><\/span><\/p>","localClass":"widget-content-5A5G9N","uniqueId":"wGPIeRwJ0CVz7na"},"className":"content","widget":{},"uniqueId":"wGPIeRwJ0CVz7na","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5a524101c0b80":{"ref":"1341527","uniqueHTMLId":"page-zones__main-widgets__5a524101c0b80","name":"5a524101c0b80","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.content","data":{"type":"widget.content","content":"<p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\"><span class=\"wysiwyg-font-size-larger\">MOBILE +41 78 740 68 62<\/span><\/span><\/p>","localClass":"widget-content-M01EW8","uniqueId":"1AqYnkTTSZPJJrb"},"className":"content","widget":{},"uniqueId":"1AqYnkTTSZPJJrb","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5ad64c6230e91":{"ref":"1560025","uniqueHTMLId":"page-zones__main-widgets__5ad64c6230e91","name":"5ad64c6230e91","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.button","data":{"action":"file","target":"_self","text":"Wanted: Pizzaiolo","url":"http:\/\/files.designer.hoststar.ch\/7b\/b1\/7bb1725f-adcf-4fcb-8112-ec8d72ee5daa.pdf","align":"widget-align-center","localClass":"widget-button-A2919T","uniqueId":"owEanO7CVFp2iox","fileName":"Inserat Pizzaiolo.pdf"},"className":"button","widget":{},"uniqueId":"owEanO7CVFp2iox","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5a68d88063dd0":{"ref":"1381053","uniqueHTMLId":"page-zones__main-widgets__5a68d88063dd0","name":"5a68d88063dd0","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.space","data":{"height":"23","localClass":"widget-space-A84YQ9","uniqueId":"hGnjSLVY0fGAKlD"},"className":"space","widget":{},"uniqueId":"hGnjSLVY0fGAKlD","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5a579dd51ba59":{"ref":"1353448","uniqueHTMLId":"page-zones__main-widgets__5a579dd51ba59","name":"5a579dd51ba59","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.responsiveslideshow","data":{"widgetType":"widget.responsiveslideshow","duration":"3","transSpeed":"2400","transType":"fade","showButtons":"","showBullets":"1","allowPause":"","allowLoop":"1","albumRef":"0","images":[{"ref":1054885,"url":"http:\/\/files.designer.hoststar.ch\/ff\/de\/ffde34ff-2c87-415d-9627-200bc48c0a6b.jpg","fileName":"DSC_0445.jpg","fileType":"image","fileSize":368508,"title":null,"updated":{"date":"2018-01-11 17:44:31.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"ff\/de\/ffde34ff-2c87-415d-9627-200bc48c0a6b.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/39\/e4\/39e42007-849f-4fb4-ab89-36d37e860c22_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/0b\/7d\/0b7d9dd9-c6e8-4750-8979-24cdcebf8547_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054886,"url":"http:\/\/files.designer.hoststar.ch\/53\/d8\/53d80bdc-4510-4e9a-808e-0f2c830aa24f.jpg","fileName":"DSC_0552.jpg","fileType":"image","fileSize":474673,"title":null,"updated":{"date":"2018-01-11 17:44:32.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"53\/d8\/53d80bdc-4510-4e9a-808e-0f2c830aa24f.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/8d\/35\/8d35923a-7ac2-4cdd-84d7-3a31d2999161_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/d6\/b6\/d6b6876b-3a8b-49c2-b3f2-371f0e3dd074_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1044514,"url":"http:\/\/files.designer.hoststar.ch\/6a\/18\/6a18e385-5f5b-4612-9bde-3992fb7257d8.png","fileName":"DSC_0619.png","fileType":"image","fileSize":443889,"title":null,"updated":{"date":"2018-01-06 12:30:31.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"6a\/18\/6a18e385-5f5b-4612-9bde-3992fb7257d8.png","imageWidth":640,"imageHeight":427,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/71\/a0\/71a02286-6888-40a7-b057-d4028f3ad817_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/f5\/c8\/f5c80cb2-e08b-4373-a7e1-d9b10fd080e3_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1044513,"url":"http:\/\/files.designer.hoststar.ch\/34\/65\/3465a6ad-9f16-476d-a3be-e24fdf0e6c1f.png","fileName":"IMG_9702.png","fileType":"image","fileSize":486872,"title":null,"updated":{"date":"2018-01-06 12:28:16.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"34\/65\/3465a6ad-9f16-476d-a3be-e24fdf0e6c1f.png","imageWidth":640,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/dd\/3a\/dd3ae844-88b1-48c3-8468-e4d1116599ee_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/18\/0f\/180f8d4f-beff-4308-a958-f4c5a53a5eea_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1044510,"url":"http:\/\/files.designer.hoststar.ch\/db\/4e\/db4e3cfc-9b7c-46f7-96d1-d36a90ef7b3f.png","fileName":"DSC_0134.png","fileType":"image","fileSize":484567,"title":null,"updated":{"date":"2018-01-06 12:28:14.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"db\/4e\/db4e3cfc-9b7c-46f7-96d1-d36a90ef7b3f.png","imageWidth":640,"imageHeight":427,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/88\/36\/88367ac0-db35-462f-9c89-6f8aa0e87bb7_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/97\/6d\/976d09ff-0348-4f31-b227-f0d0384a00b1_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1044512,"url":"http:\/\/files.designer.hoststar.ch\/b1\/de\/b1defbd9-9ca9-4b49-8bed-fd7567e3d7bf.png","fileName":"IMG_0156.png","fileType":"image","fileSize":477782,"title":null,"updated":{"date":"2018-01-06 12:28:16.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"b1\/de\/b1defbd9-9ca9-4b49-8bed-fd7567e3d7bf.png","imageWidth":640,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/42\/9e\/429ef800-7221-4dd8-a9e4-ec81e0288027_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/fb\/62\/fb627da8-cd3b-45c0-9486-bf1caa9572c7_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054882,"url":"http:\/\/files.designer.hoststar.ch\/5c\/55\/5c556467-c786-46ca-bedd-cb1278a2b596.jpg","fileName":"DSC_0146.jpg","fileType":"image","fileSize":372954,"title":null,"updated":{"date":"2018-01-11 17:44:29.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"5c\/55\/5c556467-c786-46ca-bedd-cb1278a2b596.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/6e\/6d\/6e6d44c2-d679-4462-82bd-e8ac84c241f7_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/26\/11\/26112b40-9482-479a-89bc-eb7eddb7a1cb_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054881,"url":"http:\/\/files.designer.hoststar.ch\/d7\/20\/d720a186-ce46-4c10-887e-0d2f66789cb1.jpg","fileName":"DSC_0131.jpg","fileType":"image","fileSize":409242,"title":null,"updated":{"date":"2018-01-11 17:44:29.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"d7\/20\/d720a186-ce46-4c10-887e-0d2f66789cb1.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/83\/b8\/83b8ff9b-81e9-4dbf-b22a-d1937bc3a6c7_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/08\/84\/08848f18-bdd1-4d9c-bcff-044f84041ffc_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054883,"url":"http:\/\/files.designer.hoststar.ch\/b5\/41\/b541536e-67b3-4241-90f7-38e06b2bacd8.jpg","fileName":"DSC_0151.jpg","fileType":"image","fileSize":462282,"title":null,"updated":{"date":"2018-01-11 17:44:30.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"b5\/41\/b541536e-67b3-4241-90f7-38e06b2bacd8.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/02\/2c\/022ce92f-313f-47e8-8b3a-582299b6f435_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/54\/c8\/54c85a28-aa7e-442a-8829-c42674c9173d_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054884,"url":"http:\/\/files.designer.hoststar.ch\/91\/fd\/91fde987-4ece-4abd-a217-471045d459e8.jpg","fileName":"DSC_0161.jpg","fileType":"image","fileSize":410835,"title":null,"updated":{"date":"2018-01-11 17:44:31.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"91\/fd\/91fde987-4ece-4abd-a217-471045d459e8.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/c4\/ad\/c4ad7d1f-f17f-40a2-b27a-62ee58ba8d82_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/71\/2f\/712fe768-0aad-4d82-8a51-6e138396eef2_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054887,"url":"http:\/\/files.designer.hoststar.ch\/a4\/a4\/a4a4c4ef-554a-45cc-8872-fffb43d99b47.jpg","fileName":"IMG_0026.jpg","fileType":"image","fileSize":1022415,"title":null,"updated":{"date":"2018-01-11 17:44:33.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"a4\/a4\/a4a4c4ef-554a-45cc-8872-fffb43d99b47.jpg","imageWidth":4032,"imageHeight":3024,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"complete","compressedUrl":"http:\/\/files.designer.hoststar.ch\/f3\/fd\/f3fd8552-4ea0-48ee-b250-77de4bba47eb.jpg","thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/0d\/5e\/0d5eb7c6-6ddb-4ee4-8c97-845c3132328f_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/58\/ca\/58cac637-8b5f-40ac-92d9-2a586f3ff564_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054889,"url":"http:\/\/files.designer.hoststar.ch\/2b\/6d\/2b6dbff0-e4ac-46db-91d7-b06a32707ac9.jpg","fileName":"IMG_0132.jpg","fileType":"image","fileSize":963984,"title":null,"updated":{"date":"2018-01-11 17:44:36.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"2b\/6d\/2b6dbff0-e4ac-46db-91d7-b06a32707ac9.jpg","imageWidth":4032,"imageHeight":3024,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/be\/42\/be422b6d-20cc-49fd-b38e-d1f11c5cdcc9_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/dc\/4e\/dc4e12fb-81e4-40c4-a8cd-53b81ad6d520_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1078292,"url":"http:\/\/files.designer.hoststar.ch\/8b\/84\/8b84683f-e78a-4c20-a2f1-e6de3f68bf98.jpg","fileName":"0a073932-ced5-4e36-b695-f5eb01264370.jpg","fileType":"image","fileSize":63988,"title":null,"updated":{"date":"2018-01-24 19:14:23.748795","timezone_type":3,"timezone":"Europe\/London"},"tags":[],"description":null,"path":"8b\/84\/8b84683f-e78a-4c20-a2f1-e6de3f68bf98.jpg","imageWidth":640,"imageHeight":346,"stockImage":false,"thumbnails":[],"compression":"pending","compressedUrl":null},{"ref":1078282,"url":"http:\/\/files.designer.hoststar.ch\/f0\/48\/f04813f6-376c-4d8d-bef6-06a41fb6f4b9.jpg","fileName":"ed80211b-e5a4-42b2-a7ba-12de83dbbd88.jpg","fileType":"image","fileSize":57484,"title":null,"updated":{"date":"2018-01-24 19:09:31.469982","timezone_type":3,"timezone":"Europe\/London"},"tags":[],"description":null,"path":"f0\/48\/f04813f6-376c-4d8d-bef6-06a41fb6f4b9.jpg","imageWidth":616,"imageHeight":357,"stockImage":false,"thumbnails":[],"compression":"pending","compressedUrl":null}],"localClass":"widget-responsiveslideshow-9M51RW","uniqueId":"Djhq3wTNski708Z","crop":"1"},"className":"responsiveslideshow","widget":{},"uniqueId":"Djhq3wTNski708Z","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5a68d8a5a5c96":{"ref":"1381058","uniqueHTMLId":"page-zones__main-widgets__5a68d8a5a5c96","name":"5a68d8a5a5c96","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.space","data":{"height":"23","localClass":"widget-space-SIV5AO","uniqueId":"zEP1mp7sAgrQFjS"},"className":"space","widget":{},"uniqueId":"zEP1mp7sAgrQFjS","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5a5c9f604f1ad":{"asset":{"title":null,"description":null},"ref":"1360124","uniqueHTMLId":"page-zones__main-widgets__5a5c9f604f1ad","name":"5a5c9f604f1ad","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.image","data":{"widgetType":"widget.image","description":"assets","linkUrl":"none","target":"none","action":"none","scale":"25%","imageWidth":"25%","alt":"","title":"assets","align":"widget-align-center","src":"http:\/\/files.designer.hoststar.ch\/66\/42\/66429712-8553-49ab-b60e-545950cc497b.png","localClass":"widget-image-U64015","uniqueId":"G0swg6vqSh5Dv5X","path":"66\/42\/66429712-8553-49ab-b60e-545950cc497b.png","url":"http:\/\/files.designer.hoststar.ch\/66\/42\/66429712-8553-49ab-b60e-545950cc497b.png","fileName":"woodypizza_final_cmyk (2).png","imageHeight":"1038","assetRef":"1060376"},"className":"image","widget":{},"uniqueId":"G0swg6vqSh5Dv5X","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec679ec8ae8":{"ref":"1593186","uniqueHTMLId":"page-zones__main-widgets__5aec679ec8ae8","name":"5aec679ec8ae8","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.content","data":{"type":"widget.content","content":"<div style=\"text-align: center;\"><\/div><div style=\"text-align: center;\"><span class=\"wysiwyg-font-size-large\"><b>Unsere STREETFOOD Standorte<\/b><\/span><span class=\"wysiwyg-font-size-larger\"><b><br><\/b><\/span><span class=\"wysiwyg-font-size-large\">Pizza aus dem Holzofen jeweils ab 11.45 Uhr<br><br><b>Achtung! Neu! Auf dem Campingplatz in Zug: Mittag &amp; Abend<\/b><\/span><\/div>","localClass":"widget-content-O516I1","uniqueId":"tF0sMpCiVsJT6kD"},"className":"content","widget":{},"uniqueId":"tF0sMpCiVsJT6kD","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec6f47a1fd9":{"ref":"1593273","uniqueHTMLId":"page-zones__main-widgets__5aec6f47a1fd9","name":"5aec6f47a1fd9","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.button","data":{"action":"file","target":"_self","text":"Angebot","url":"http:\/\/files.designer.hoststar.ch\/14\/24\/1424b669-7e62-4737-8989-9eb7571ed78a.pdf","align":"widget-align-center","localClass":"widget-button-E7BT01","uniqueId":"aG9Y2FQsFAu8gm9","fileName":"Angebot.pdf"},"className":"button","widget":{},"uniqueId":"aG9Y2FQsFAu8gm9","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5b18c6211a493":{"ref":"1648234","uniqueHTMLId":"page-zones__main-widgets__5b18c6211a493","name":"5b18c6211a493","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.space","data":{"height":"50","localClass":"widget-space-95NW57"},"className":"space","widget":{},"uniqueId":"MkPz5CENCnLOhUz","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5b18c4afca412":{"ref":"1648214","uniqueHTMLId":"page-zones__main-widgets__5b18c4afca412","name":"5b18c4afca412","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.content","data":{"type":"widget.content","content":"<p><b>Montag: Campingplatz Zug Mittag ab 11.45 Uhr \/ Abend ab 17.30 Uhr<\/b><\/p>","localClass":"widget-content-097AA8","uniqueId":"Fd9BBXjlU7j8Qjk"},"className":"content","widget":{},"uniqueId":"Fd9BBXjlU7j8Qjk","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5b18c55e16bc3":{"ref":"1648217","uniqueHTMLId":"page-zones__main-widgets__5b18c55e16bc3","name":"5b18c55e16bc3","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.map","data":{"zoom":"12","height":"200","localClass":"widget-map-0A0188","uniqueId":"0sXKlMMQAQeSKZT","mapaddress":"TCS Camping Zug","address1":"Chamer Fussweg 36","postalcode":"6300"},"className":"map","widget":{},"uniqueId":"0sXKlMMQAQeSKZT","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec8a1fd75a0":{"ref":"1593615","uniqueHTMLId":"page-zones__main-widgets__5aec8a1fd75a0","name":"5aec8a1fd75a0","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.space","data":{"height":"30","localClass":"widget-space-NT2OSZ","uniqueId":"UrHQ5CPO75CTuwG"},"className":"space","widget":{},"uniqueId":"UrHQ5CPO75CTuwG","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec68d67ee13":{"ref":"1593207","uniqueHTMLId":"page-zones__main-widgets__5aec68d67ee13","name":"5aec68d67ee13","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.content","data":{"type":"widget.content","content":"<p style=\"text-align: left;\"><b>Dienstag: Muri AG<\/b><\/p>","localClass":"widget-content-RCM6N0","uniqueId":"ADcVvhvNjZyHv2c"},"className":"content","widget":{},"uniqueId":"ADcVvhvNjZyHv2c","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec6789dd0b9":{"ref":"1593177","uniqueHTMLId":"page-zones__main-widgets__5aec6789dd0b9","name":"5aec6789dd0b9","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.map","data":{"zoom":"12","height":"200","localClass":"widget-map-91BTUE","uniqueId":"ak0iOMowqtz2Ydo","mapaddress":"Robert Wild AG","address1":"Luzernerstrasse 19","postalcode":"5630"},"className":"map","widget":{},"uniqueId":"ak0iOMowqtz2Ydo","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec8d1d223b6":{"ref":"1593623","uniqueHTMLId":"page-zones__main-widgets__5aec8d1d223b6","name":"5aec8d1d223b6","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.space","data":{"height":"50","localClass":"widget-space-01A76M","uniqueId":"jOJRJpS52HlgZpU"},"className":"space","widget":{},"uniqueId":"jOJRJpS52HlgZpU","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec694397892":{"ref":"1593209","uniqueHTMLId":"page-zones__main-widgets__5aec694397892","name":"5aec694397892","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.content","data":{"type":"widget.content","content":"<p style=\"text-align: left;\"><b>Mittwoch: Baar ZG<\/b><\/p>","localClass":"widget-content-KPNQ9Q","uniqueId":"2iBtj9ewzMAc8MH"},"className":"content","widget":{},"uniqueId":"2iBtj9ewzMAc8MH","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec698af0a1e":{"ref":"1593214","uniqueHTMLId":"page-zones__main-widgets__5aec698af0a1e","name":"5aec698af0a1e","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.map","data":{"zoom":"12","height":"200","localClass":"widget-map-SRXQOA","uniqueId":"Pj4eg2rjxUaUFM0","mapaddress":"Wabool AG","address1":"Oberneuhofstrasse 11","postalcode":"6340"},"className":"map","widget":{},"uniqueId":"Pj4eg2rjxUaUFM0","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec8ad969a10":{"ref":"1593624","uniqueHTMLId":"page-zones__main-widgets__5aec8ad969a10","name":"5aec8ad969a10","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.space","data":{"height":"50","localClass":"widget-space-33CZ96"},"className":"space","widget":{},"uniqueId":"NefLZREoSIoGLDX","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec6960a6024":{"ref":"1593211","uniqueHTMLId":"page-zones__main-widgets__5aec6960a6024","name":"5aec6960a6024","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.content","data":{"type":"widget.content","content":"<p style=\"text-align: left;\"><b>Donnerstag: Cham ZG<\/b><\/p>","localClass":"widget-content-3I6N1G","uniqueId":"ca9ZfjKk6Mn4iWg"},"className":"content","widget":{},"uniqueId":"ca9ZfjKk6Mn4iWg","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec6997126bc":{"ref":"1593215","uniqueHTMLId":"page-zones__main-widgets__5aec6997126bc","name":"5aec6997126bc","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.map","data":{"zoom":"15","height":"200","localClass":"widget-map-LW87K0","uniqueId":"FLY6EiMcXMBxlWO","mapaddress":"Weiss zum Erlenbach AG","address1":"Riedstrasse 10","postalcode":"6330"},"className":"map","widget":{},"uniqueId":"FLY6EiMcXMBxlWO","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec8b5601083":{"ref":"1593626","uniqueHTMLId":"page-zones__main-widgets__5aec8b5601083","name":"5aec8b5601083","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.space","data":{"height":"50","localClass":"widget-space-0P454M"},"className":"space","widget":{},"uniqueId":"FFNHuDasOM8MQj1","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec6a5554e29":{"ref":"1593223","uniqueHTMLId":"page-zones__main-widgets__5aec6a5554e29","name":"5aec6a5554e29","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.content","data":{"type":"widget.content","content":"<p style=\"text-align: left;\"><b>coming soon: <\/b><a href=\"http:\/\/puurpuur.ch\" target=\"_blank\"><u>puurpuur<\/u><\/a>, SBB Areal Kirschloh, Zug<\/p>","localClass":"widget-content-88G1E8","uniqueId":"At7qaKGO4aXLK8g"},"className":"content","widget":{},"uniqueId":"At7qaKGO4aXLK8g","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec6ad9a9755":{"ref":"1593226","uniqueHTMLId":"page-zones__main-widgets__5aec6ad9a9755","name":"5aec6ad9a9755","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.map","data":{"zoom":"15","height":"200","localClass":"widget-map-K02H9H","uniqueId":"Jf9f15qWif9fO3X","mapaddress":"G\u00fcterbahnhof","postalcode":"6300"},"className":"map","widget":{},"uniqueId":"Jf9f15qWif9fO3X","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec8bb9592a0":{"ref":"1593629","uniqueHTMLId":"page-zones__main-widgets__5aec8bb9592a0","name":"5aec8bb9592a0","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.space","data":{"height":"50","localClass":"widget-space-XPSAE8"},"className":"space","widget":{},"uniqueId":"1USgtD8QWOi6FuM","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5a68debda71a7":{"asset":{"title":null,"description":null},"ref":"1381110","uniqueHTMLId":"page-zones__main-widgets__5a68debda71a7","name":"5a68debda71a7","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.image","data":{"widgetType":"widget.image","description":"assets","linkUrl":"https:\/\/www.facebook.com\/woodypizzatruck\/?ref=bookmarks","target":"_blank","action":"external","scale":"original","imageWidth":"44","alt":"","title":"assets","align":"widget-align-center","src":"http:\/\/files.designer.hoststar.ch\/e3\/74\/e37410fb-8076-442c-a73e-55f1f95513f8.png","localClass":"widget-image-5PP9VJ","uniqueId":"ouVsf7AqUymZrKl","path":"e3\/74\/e37410fb-8076-442c-a73e-55f1f95513f8.png","url":"http:\/\/files.designer.hoststar.ch\/e3\/74\/e37410fb-8076-442c-a73e-55f1f95513f8.png","fileName":"","imageHeight":"48","assetRef":"1078306"},"className":"image","widget":{},"uniqueId":"ouVsf7AqUymZrKl","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec8bc27a3ac":{"ref":"1593631","uniqueHTMLId":"page-zones__main-widgets__5aec8bc27a3ac","name":"5aec8bc27a3ac","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.space","data":{"height":"50","localClass":"widget-space-U9XB88"},"className":"space","widget":{},"uniqueId":"wFVy0CMgiVjCuWx","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5aec76372476f":{"ref":"1593443","uniqueHTMLId":"page-zones__main-widgets__5aec76372476f","name":"5aec76372476f","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.content","data":{"type":"widget.content","content":"<p style=\"text-align: center;\"><span class=\"wysiwyg-font-size-smaller\">Woody Pizza c\/o CHGC GmbH &nbsp;Christoph Gut &nbsp;Haldenstrasse 38 &nbsp;CH - 8908 Hedingen<\/span><br><span class=\"wysiwyg-font-size-smaller\">+41 (0)79 349 42 29<\/span><br><a href=\"http:\/\/www.hochgenuss.net\" target=\"_self\"><span class=\"wysiwyg-font-size-smaller\">www.hochgenuss.net<\/span><\/a><\/p>","localClass":"widget-content-QP8C46","uniqueId":"8coOGM3tb2nIi8X"},"className":"content","widget":{},"uniqueId":"8coOGM3tb2nIi8X","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__main-widgets__5b18c619c39ea":{"ref":"1648233","uniqueHTMLId":"page-zones__main-widgets__5b18c619c39ea","name":"5b18c619c39ea","fixed":false,"libraryItemRef":"0","pageRef":"101288","temporary":{},"changed":{},"type":"widget.space","data":{"height":"50","localClass":"widget-space-33MP8Q"},"className":"space","widget":{},"uniqueId":"5XV8eBSM7uUymHq","parentUniqueId":"F8PmEXW3N5Tz8Kd"},"page-zones__template-widgets__feature-featurehome":{"debugMode":false,"enablePolicyPages":false,"ref":null,"uniqueHTMLId":"page-zones__template-widgets__feature-featurehome","name":"feature-featurehome","fixed":true,"libraryItemRef":null,"pageRef":null,"temporary":{},"changed":{},"type":"widget.feature","data":{"header":"","defaultBgImg":"\/\/55b558c7-resources.designer.hoststar.ch\/74bbdaf\/templates\/sensed\/images\/feature.jpg","positionTopPercentage":"45.29707580555","showBtn":"","buttonText":"","preset":null,"presetRef":null,"uniqueId":null,"bgImg":"","strapline":"","url":"mailto:booking@woodypizza.ch","action":"mail","target":"_self","showTplWidget":"1","fontSize":"24","bold":"","newBgImg":"http:\/\/files.designer.hoststar.ch\/b1\/77\/b1772a9f-26da-4bac-9604-668dcb502182.jpg","fileName":"","useTemplate":"0"},"className":"feature","widget":{},"uniqueId":null,"parentUniqueId":null}};
+    Server.desktopSite.getPrimaryDomainData = function ()
+    {
+        var keys = [],
+            key = null,
+            domain = null;
+
+        if (this.primaryDomain !== null)
+        {
+            domain = this.primaryDomain.domainName;
+        }
+        else
+        {
+            bk$.each(this.domains, function(key)
+            {
+                keys.push(parseInt(key, 10));
+            });
+
+            key = Math.max.apply(null, keys);
+            domain = this.domains[key] || null;
+        }
+
+        return {
+            key : key,
+            domain: domain
+        };
+    };
+    Server.desktopSite.getPrimaryDomain = function ()
+    {
+        return this.getPrimaryDomainData().domain;
+    };
+    Server.customWidgetsDomain = '';
+    Server.customWidgetVersions = null;
+</script>
+
+<script src="//55b558c7-resources.designer.hoststar.ch/e8a9054/de/translations.js?sections=widgets,mobile,shared_views,shared_components,cookie"></script>
+
+    <script src="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/compiled/published-v8-site-libs.js"></script>
+    <script src="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/compiled/published-v8-site.js"></script>
+
+
+<script src="https://55b558c7-resources.designer.hoststar.ch/a21be498cb/compiled/twig-widget-views-v2.js"></script>
+
+    
+<script nonce="">
+(function () {
+
+    fallback = 1;
+
+    if (!'localStorage' in window ||
+        !'querySelectorAll' in window ||
+        !'addEventListener' in window
+    ) {
+        return;
+    }
+
+    function getFormat(ua) {
+        if (ua.indexOf('android') > -1 && ua.indexOf('chrome') === -1) {
+            return 'ttf';
+        }
+
+        return 'woff';
+    }
+
+    function removeObsoleteFontsFromStorage(storageKey) {
+        var prefix;
+
+        if (!window.localStorage) {
+            return;
+        }
+
+        prefix = storageKey + '.' + window.localStorage.getItem('bk.webfonts.format');
+        try {
+            for (key in window.localStorage) {
+                if (key.indexOf(storageKey) === 0) {
+                    removeStorageItem(key, prefix)
+                }
+            }
+        } catch (ex) {
+        }
+    }
+
+    function removeStorageItem(storageKey, prefix) {
+        var font,
+            remove = true,
+            fontCollections = document.head.querySelectorAll('.js-webfont');
+
+        for (var i = fontCollections.length - 1; i >= 0; --i) {
+            font = prefix + '.' + fontCollections[i].getAttribute('data-name');
+            if (storageKey.indexOf(font) === 0) {
+                remove = false;
+            }
+        }
+
+        if (remove == true) {
+            try {
+                window.localStorage.removeItem(storageKey);
+            } catch (ex) {
+            }
+        }
+    }
+
+    function loadFontAsynchronously(fontUrl) {
+        var head = document.getElementsByTagName('head')[0],
+            link = document.createElement('link');
+
+        link.rel = 'stylesheet';
+        link.href = fontUrl;
+        head.appendChild(link);
+    }
+
+    window.addEventListener('load', function () {
+        var i,
+            localKey = 'published',
+            storageKey = 'bk.webfonts.' + localKey,
+            format,
+            fontCollections,
+            collection,
+            request;
+
+        removeObsoleteFontsFromStorage(storageKey);
+
+        fontCollections = document.head.querySelectorAll('.js-webfont:not([data-cache-full="data-cache-full"])');
+        if (fontCollections.length === 0) {
+            return;
+        }
+
+        format = getFormat(navigator.userAgent);
+        try {
+            window.localStorage.setItem('bk.webfonts.format', format);
+        } catch (ex) {
+        }
+
+        for (i = fontCollections.length - 1; i >= 0; --i) {
+            fontCollection = fontCollections[i];
+            (function(collection) {
+                var json,
+                    font,
+                    content,
+                    fonts = [];
+
+                request = new XMLHttpRequest();
+                request.open('GET', collection.getAttribute('data-' + format + '-cache'), true);
+                request.onload = function () {
+                    if (this.status === 200) {
+                        try {
+
+                            json = JSON.parse(this.response);
+                            for (font = json.length - 1; font >= 0; --font) {
+                                fonts.push(json[font].css);
+                            }
+                            content = fonts.join('');
+                            collection.innerHTML = content;
+                            window.localStorage.setItem(
+                                storageKey + '.' + format + '.' + collection.getAttribute('data-name'), content
+                            );
+                            collection.setAttribute('data-cache-full', 'data-cache-full');
+                        } catch (ex) {
+                        }
+                    }
+
+                    if (fallback && this.status === 404) {
+                        loadFontAsynchronously(collection.getAttribute('data-fallback-stylesheet'));
+                    }
+                };
+                request.send();
+            })(fontCollection);
+        }
+    }, false);
+}());
+</script>
+
+    <script nonce="">
+    (function () {
+        Server.widgetsOnPage = [{"className":"template","data":{},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"main","pageRef":"101288","parentUniqueId":null,"ref":"653366","type":"widget.template","uniqueHTMLId":"page-zones__main","uniqueId":"F8PmEXW3N5Tz8Kd","isZone":true,"parentZone":null,"zoneName":"main"},{"className":"content","data":{"type":"widget.content","content":"<p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\"><b><span class=\"wysiwyg-font-size-xx-large\">WOODY PIZZA TRUCK<\/span><\/b><\/span><\/p><p style=\"text-align: center;\"><span class=\"wysiwyg-font-size-larger\"><span style=\"color: rgb(0, 0, 0);\">PIZZA AUS DEM HOLZOFEN<\/span><\/span><\/p>","localClass":"widget-content-O72KH2","uniqueId":"pVsIL1tNko8UTSt"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5a4fb82f3403a","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1341468","type":"widget.content","uniqueHTMLId":"page-zones__main-widgets__5a4fb82f3403a","uniqueId":"pVsIL1tNko8UTSt","isZone":false,"parentZone":"main","zoneName":null},{"className":"content","data":{"type":"widget.content","content":"<div style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\"><span class=\"wysiwyg-font-size-larger\">STREETFOOD<\/span><\/span><\/div><div style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\"><span class=\"wysiwyg-font-size-larger\">EVENTS &amp; CATERING<\/span><\/span><\/div>","localClass":"widget-content-X6WUS6","uniqueId":"fhUJfJoJHk8MjF1"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5a4fba76e39d8","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1341482","type":"widget.content","uniqueHTMLId":"page-zones__main-widgets__5a4fba76e39d8","uniqueId":"fhUJfJoJHk8MjF1","isZone":false,"parentZone":"main","zoneName":null},{"className":"content","data":{"type":"widget.content","content":"<p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\"><a href=\"mailto:booking@woodypizza.ch\" target=\"_self\"><span class=\"wysiwyg-font-size-larger\">booking@woodypizza.ch<\/span><\/a><\/span><\/p>","localClass":"widget-content-5A5G9N","uniqueId":"wGPIeRwJ0CVz7na"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5a50c925e423f","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1342343","type":"widget.content","uniqueHTMLId":"page-zones__main-widgets__5a50c925e423f","uniqueId":"wGPIeRwJ0CVz7na","isZone":false,"parentZone":"main","zoneName":null},{"className":"content","data":{"type":"widget.content","content":"<p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\"><span class=\"wysiwyg-font-size-larger\">MOBILE +41 78 740 68 62<\/span><\/span><\/p>","localClass":"widget-content-M01EW8","uniqueId":"1AqYnkTTSZPJJrb"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5a524101c0b80","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1341527","type":"widget.content","uniqueHTMLId":"page-zones__main-widgets__5a524101c0b80","uniqueId":"1AqYnkTTSZPJJrb","isZone":false,"parentZone":"main","zoneName":null},{"className":"button","data":{"action":"file","target":"_self","text":"Wanted: Pizzaiolo","url":"http:\/\/files.designer.hoststar.ch\/7b\/b1\/7bb1725f-adcf-4fcb-8112-ec8d72ee5daa.pdf","align":"widget-align-center","localClass":"widget-button-A2919T","uniqueId":"owEanO7CVFp2iox","fileName":"Inserat Pizzaiolo.pdf"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5ad64c6230e91","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1560025","type":"widget.button","uniqueHTMLId":"page-zones__main-widgets__5ad64c6230e91","uniqueId":"owEanO7CVFp2iox","isZone":false,"parentZone":"main","zoneName":null},{"className":"space","data":{"height":"23","localClass":"widget-space-A84YQ9","uniqueId":"hGnjSLVY0fGAKlD"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5a68d88063dd0","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1381053","type":"widget.space","uniqueHTMLId":"page-zones__main-widgets__5a68d88063dd0","uniqueId":"hGnjSLVY0fGAKlD","isZone":false,"parentZone":"main","zoneName":null},{"className":"responsiveslideshow","data":{"widgetType":"widget.responsiveslideshow","duration":"3","transSpeed":"2400","transType":"fade","showButtons":"","showBullets":"1","allowPause":"","allowLoop":"1","albumRef":"0","images":[{"ref":1054885,"url":"http:\/\/files.designer.hoststar.ch\/ff\/de\/ffde34ff-2c87-415d-9627-200bc48c0a6b.jpg","fileName":"DSC_0445.jpg","fileType":"image","fileSize":368508,"title":null,"updated":{"date":"2018-01-11 17:44:31.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"ff\/de\/ffde34ff-2c87-415d-9627-200bc48c0a6b.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/39\/e4\/39e42007-849f-4fb4-ab89-36d37e860c22_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/0b\/7d\/0b7d9dd9-c6e8-4750-8979-24cdcebf8547_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054886,"url":"http:\/\/files.designer.hoststar.ch\/53\/d8\/53d80bdc-4510-4e9a-808e-0f2c830aa24f.jpg","fileName":"DSC_0552.jpg","fileType":"image","fileSize":474673,"title":null,"updated":{"date":"2018-01-11 17:44:32.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"53\/d8\/53d80bdc-4510-4e9a-808e-0f2c830aa24f.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/8d\/35\/8d35923a-7ac2-4cdd-84d7-3a31d2999161_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/d6\/b6\/d6b6876b-3a8b-49c2-b3f2-371f0e3dd074_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1044514,"url":"http:\/\/files.designer.hoststar.ch\/6a\/18\/6a18e385-5f5b-4612-9bde-3992fb7257d8.png","fileName":"DSC_0619.png","fileType":"image","fileSize":443889,"title":null,"updated":{"date":"2018-01-06 12:30:31.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"6a\/18\/6a18e385-5f5b-4612-9bde-3992fb7257d8.png","imageWidth":640,"imageHeight":427,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/71\/a0\/71a02286-6888-40a7-b057-d4028f3ad817_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/f5\/c8\/f5c80cb2-e08b-4373-a7e1-d9b10fd080e3_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1044513,"url":"http:\/\/files.designer.hoststar.ch\/34\/65\/3465a6ad-9f16-476d-a3be-e24fdf0e6c1f.png","fileName":"IMG_9702.png","fileType":"image","fileSize":486872,"title":null,"updated":{"date":"2018-01-06 12:28:16.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"34\/65\/3465a6ad-9f16-476d-a3be-e24fdf0e6c1f.png","imageWidth":640,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/dd\/3a\/dd3ae844-88b1-48c3-8468-e4d1116599ee_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/18\/0f\/180f8d4f-beff-4308-a958-f4c5a53a5eea_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1044510,"url":"http:\/\/files.designer.hoststar.ch\/db\/4e\/db4e3cfc-9b7c-46f7-96d1-d36a90ef7b3f.png","fileName":"DSC_0134.png","fileType":"image","fileSize":484567,"title":null,"updated":{"date":"2018-01-06 12:28:14.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"db\/4e\/db4e3cfc-9b7c-46f7-96d1-d36a90ef7b3f.png","imageWidth":640,"imageHeight":427,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/88\/36\/88367ac0-db35-462f-9c89-6f8aa0e87bb7_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/97\/6d\/976d09ff-0348-4f31-b227-f0d0384a00b1_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1044512,"url":"http:\/\/files.designer.hoststar.ch\/b1\/de\/b1defbd9-9ca9-4b49-8bed-fd7567e3d7bf.png","fileName":"IMG_0156.png","fileType":"image","fileSize":477782,"title":null,"updated":{"date":"2018-01-06 12:28:16.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"b1\/de\/b1defbd9-9ca9-4b49-8bed-fd7567e3d7bf.png","imageWidth":640,"imageHeight":480,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/42\/9e\/429ef800-7221-4dd8-a9e4-ec81e0288027_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/fb\/62\/fb627da8-cd3b-45c0-9486-bf1caa9572c7_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054882,"url":"http:\/\/files.designer.hoststar.ch\/5c\/55\/5c556467-c786-46ca-bedd-cb1278a2b596.jpg","fileName":"DSC_0146.jpg","fileType":"image","fileSize":372954,"title":null,"updated":{"date":"2018-01-11 17:44:29.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"5c\/55\/5c556467-c786-46ca-bedd-cb1278a2b596.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/6e\/6d\/6e6d44c2-d679-4462-82bd-e8ac84c241f7_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/26\/11\/26112b40-9482-479a-89bc-eb7eddb7a1cb_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054881,"url":"http:\/\/files.designer.hoststar.ch\/d7\/20\/d720a186-ce46-4c10-887e-0d2f66789cb1.jpg","fileName":"DSC_0131.jpg","fileType":"image","fileSize":409242,"title":null,"updated":{"date":"2018-01-11 17:44:29.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"d7\/20\/d720a186-ce46-4c10-887e-0d2f66789cb1.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/83\/b8\/83b8ff9b-81e9-4dbf-b22a-d1937bc3a6c7_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/08\/84\/08848f18-bdd1-4d9c-bcff-044f84041ffc_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054883,"url":"http:\/\/files.designer.hoststar.ch\/b5\/41\/b541536e-67b3-4241-90f7-38e06b2bacd8.jpg","fileName":"DSC_0151.jpg","fileType":"image","fileSize":462282,"title":null,"updated":{"date":"2018-01-11 17:44:30.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"b5\/41\/b541536e-67b3-4241-90f7-38e06b2bacd8.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/02\/2c\/022ce92f-313f-47e8-8b3a-582299b6f435_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/54\/c8\/54c85a28-aa7e-442a-8829-c42674c9173d_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054884,"url":"http:\/\/files.designer.hoststar.ch\/91\/fd\/91fde987-4ece-4abd-a217-471045d459e8.jpg","fileName":"DSC_0161.jpg","fileType":"image","fileSize":410835,"title":null,"updated":{"date":"2018-01-11 17:44:31.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"91\/fd\/91fde987-4ece-4abd-a217-471045d459e8.jpg","imageWidth":2304,"imageHeight":1536,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/c4\/ad\/c4ad7d1f-f17f-40a2-b27a-62ee58ba8d82_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/71\/2f\/712fe768-0aad-4d82-8a51-6e138396eef2_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054887,"url":"http:\/\/files.designer.hoststar.ch\/a4\/a4\/a4a4c4ef-554a-45cc-8872-fffb43d99b47.jpg","fileName":"IMG_0026.jpg","fileType":"image","fileSize":1022415,"title":null,"updated":{"date":"2018-01-11 17:44:33.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"a4\/a4\/a4a4c4ef-554a-45cc-8872-fffb43d99b47.jpg","imageWidth":4032,"imageHeight":3024,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"complete","compressedUrl":"http:\/\/files.designer.hoststar.ch\/f3\/fd\/f3fd8552-4ea0-48ee-b250-77de4bba47eb.jpg","thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/0d\/5e\/0d5eb7c6-6ddb-4ee4-8c97-845c3132328f_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/58\/ca\/58cac637-8b5f-40ac-92d9-2a586f3ff564_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1054889,"url":"http:\/\/files.designer.hoststar.ch\/2b\/6d\/2b6dbff0-e4ac-46db-91d7-b06a32707ac9.jpg","fileName":"IMG_0132.jpg","fileType":"image","fileSize":963984,"title":null,"updated":{"date":"2018-01-11 17:44:36.000000","timezone_type":3,"timezone":"Europe\/London"},"description":null,"path":"2b\/6d\/2b6dbff0-e4ac-46db-91d7-b06a32707ac9.jpg","imageWidth":4032,"imageHeight":3024,"deleted":false,"albumRef":null,"albumTitle":null,"providerRef":null,"compression":"none","compressedUrl":null,"thumbnails":{"1x":{"url":"http:\/\/files.designer.hoststar.ch\/be\/42\/be422b6d-20cc-49fd-b38e-d1f11c5cdcc9_thumb_1x.jpg","height":"180","width":"180"},"2x":{"url":"http:\/\/files.designer.hoststar.ch\/dc\/4e\/dc4e12fb-81e4-40c4-a8cd-53b81ad6d520_thumb_2x.jpg","height":"360","width":"360"}},"isSelected":true},{"ref":1078292,"url":"http:\/\/files.designer.hoststar.ch\/8b\/84\/8b84683f-e78a-4c20-a2f1-e6de3f68bf98.jpg","fileName":"0a073932-ced5-4e36-b695-f5eb01264370.jpg","fileType":"image","fileSize":63988,"title":null,"updated":{"date":"2018-01-24 19:14:23.748795","timezone_type":3,"timezone":"Europe\/London"},"tags":[],"description":null,"path":"8b\/84\/8b84683f-e78a-4c20-a2f1-e6de3f68bf98.jpg","imageWidth":640,"imageHeight":346,"stockImage":false,"thumbnails":[],"compression":"pending","compressedUrl":null},{"ref":1078282,"url":"http:\/\/files.designer.hoststar.ch\/f0\/48\/f04813f6-376c-4d8d-bef6-06a41fb6f4b9.jpg","fileName":"ed80211b-e5a4-42b2-a7ba-12de83dbbd88.jpg","fileType":"image","fileSize":57484,"title":null,"updated":{"date":"2018-01-24 19:09:31.469982","timezone_type":3,"timezone":"Europe\/London"},"tags":[],"description":null,"path":"f0\/48\/f04813f6-376c-4d8d-bef6-06a41fb6f4b9.jpg","imageWidth":616,"imageHeight":357,"stockImage":false,"thumbnails":[],"compression":"pending","compressedUrl":null}],"localClass":"widget-responsiveslideshow-9M51RW","uniqueId":"Djhq3wTNski708Z","crop":"1"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5a579dd51ba59","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1353448","type":"widget.responsiveslideshow","uniqueHTMLId":"page-zones__main-widgets__5a579dd51ba59","uniqueId":"Djhq3wTNski708Z","isZone":false,"parentZone":"main","zoneName":null},{"className":"space","data":{"height":"23","localClass":"widget-space-SIV5AO","uniqueId":"zEP1mp7sAgrQFjS"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5a68d8a5a5c96","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1381058","type":"widget.space","uniqueHTMLId":"page-zones__main-widgets__5a68d8a5a5c96","uniqueId":"zEP1mp7sAgrQFjS","isZone":false,"parentZone":"main","zoneName":null},{"className":"image","data":{"widgetType":"widget.image","description":"assets","linkUrl":"none","target":"none","action":"none","scale":"25%","imageWidth":"25%","alt":"","title":"assets","align":"widget-align-center","src":"http:\/\/files.designer.hoststar.ch\/66\/42\/66429712-8553-49ab-b60e-545950cc497b.png","localClass":"widget-image-U64015","uniqueId":"G0swg6vqSh5Dv5X","path":"66\/42\/66429712-8553-49ab-b60e-545950cc497b.png","url":"http:\/\/files.designer.hoststar.ch\/66\/42\/66429712-8553-49ab-b60e-545950cc497b.png","fileName":"woodypizza_final_cmyk (2).png","imageHeight":"1038","assetRef":"1060376"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5a5c9f604f1ad","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1360124","type":"widget.image","uniqueHTMLId":"page-zones__main-widgets__5a5c9f604f1ad","uniqueId":"G0swg6vqSh5Dv5X","asset":{"title":null,"description":null},"isZone":false,"parentZone":"main","zoneName":null},{"className":"content","data":{"type":"widget.content","content":"<div style=\"text-align: center;\"><\/div><div style=\"text-align: center;\"><span class=\"wysiwyg-font-size-large\"><b>Unsere STREETFOOD Standorte<\/b><\/span><span class=\"wysiwyg-font-size-larger\"><b><br><\/b><\/span><span class=\"wysiwyg-font-size-large\">Pizza aus dem Holzofen jeweils ab 11.45 Uhr<br><br><b>Achtung! Neu! Auf dem Campingplatz in Zug: Mittag &amp; Abend<\/b><\/span><\/div>","localClass":"widget-content-O516I1","uniqueId":"tF0sMpCiVsJT6kD"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec679ec8ae8","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593186","type":"widget.content","uniqueHTMLId":"page-zones__main-widgets__5aec679ec8ae8","uniqueId":"tF0sMpCiVsJT6kD","isZone":false,"parentZone":"main","zoneName":null},{"className":"button","data":{"action":"file","target":"_self","text":"Angebot","url":"http:\/\/files.designer.hoststar.ch\/14\/24\/1424b669-7e62-4737-8989-9eb7571ed78a.pdf","align":"widget-align-center","localClass":"widget-button-E7BT01","uniqueId":"aG9Y2FQsFAu8gm9","fileName":"Angebot.pdf"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec6f47a1fd9","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593273","type":"widget.button","uniqueHTMLId":"page-zones__main-widgets__5aec6f47a1fd9","uniqueId":"aG9Y2FQsFAu8gm9","isZone":false,"parentZone":"main","zoneName":null},{"className":"space","data":{"height":"50","localClass":"widget-space-95NW57"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5b18c6211a493","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1648234","type":"widget.space","uniqueHTMLId":"page-zones__main-widgets__5b18c6211a493","uniqueId":"MkPz5CENCnLOhUz","isZone":false,"parentZone":"main","zoneName":null},{"className":"content","data":{"type":"widget.content","content":"<p><b>Montag: Campingplatz Zug Mittag ab 11.45 Uhr \/ Abend ab 17.30 Uhr<\/b><\/p>","localClass":"widget-content-097AA8","uniqueId":"Fd9BBXjlU7j8Qjk"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5b18c4afca412","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1648214","type":"widget.content","uniqueHTMLId":"page-zones__main-widgets__5b18c4afca412","uniqueId":"Fd9BBXjlU7j8Qjk","isZone":false,"parentZone":"main","zoneName":null},{"className":"map","data":{"zoom":"12","height":"200","localClass":"widget-map-0A0188","uniqueId":"0sXKlMMQAQeSKZT","mapaddress":"TCS Camping Zug","address1":"Chamer Fussweg 36","postalcode":"6300"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5b18c55e16bc3","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1648217","type":"widget.map","uniqueHTMLId":"page-zones__main-widgets__5b18c55e16bc3","uniqueId":"0sXKlMMQAQeSKZT","isZone":false,"parentZone":"main","zoneName":null},{"className":"space","data":{"height":"30","localClass":"widget-space-NT2OSZ","uniqueId":"UrHQ5CPO75CTuwG"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec8a1fd75a0","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593615","type":"widget.space","uniqueHTMLId":"page-zones__main-widgets__5aec8a1fd75a0","uniqueId":"UrHQ5CPO75CTuwG","isZone":false,"parentZone":"main","zoneName":null},{"className":"content","data":{"type":"widget.content","content":"<p style=\"text-align: left;\"><b>Dienstag: Muri AG<\/b><\/p>","localClass":"widget-content-RCM6N0","uniqueId":"ADcVvhvNjZyHv2c"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec68d67ee13","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593207","type":"widget.content","uniqueHTMLId":"page-zones__main-widgets__5aec68d67ee13","uniqueId":"ADcVvhvNjZyHv2c","isZone":false,"parentZone":"main","zoneName":null},{"className":"map","data":{"zoom":"12","height":"200","localClass":"widget-map-91BTUE","uniqueId":"ak0iOMowqtz2Ydo","mapaddress":"Robert Wild AG","address1":"Luzernerstrasse 19","postalcode":"5630"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec6789dd0b9","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593177","type":"widget.map","uniqueHTMLId":"page-zones__main-widgets__5aec6789dd0b9","uniqueId":"ak0iOMowqtz2Ydo","isZone":false,"parentZone":"main","zoneName":null},{"className":"space","data":{"height":"50","localClass":"widget-space-01A76M","uniqueId":"jOJRJpS52HlgZpU"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec8d1d223b6","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593623","type":"widget.space","uniqueHTMLId":"page-zones__main-widgets__5aec8d1d223b6","uniqueId":"jOJRJpS52HlgZpU","isZone":false,"parentZone":"main","zoneName":null},{"className":"content","data":{"type":"widget.content","content":"<p style=\"text-align: left;\"><b>Mittwoch: Baar ZG<\/b><\/p>","localClass":"widget-content-KPNQ9Q","uniqueId":"2iBtj9ewzMAc8MH"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec694397892","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593209","type":"widget.content","uniqueHTMLId":"page-zones__main-widgets__5aec694397892","uniqueId":"2iBtj9ewzMAc8MH","isZone":false,"parentZone":"main","zoneName":null},{"className":"map","data":{"zoom":"12","height":"200","localClass":"widget-map-SRXQOA","uniqueId":"Pj4eg2rjxUaUFM0","mapaddress":"Wabool AG","address1":"Oberneuhofstrasse 11","postalcode":"6340"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec698af0a1e","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593214","type":"widget.map","uniqueHTMLId":"page-zones__main-widgets__5aec698af0a1e","uniqueId":"Pj4eg2rjxUaUFM0","isZone":false,"parentZone":"main","zoneName":null},{"className":"space","data":{"height":"50","localClass":"widget-space-33CZ96"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec8ad969a10","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593624","type":"widget.space","uniqueHTMLId":"page-zones__main-widgets__5aec8ad969a10","uniqueId":"NefLZREoSIoGLDX","isZone":false,"parentZone":"main","zoneName":null},{"className":"content","data":{"type":"widget.content","content":"<p style=\"text-align: left;\"><b>Donnerstag: Cham ZG<\/b><\/p>","localClass":"widget-content-3I6N1G","uniqueId":"ca9ZfjKk6Mn4iWg"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec6960a6024","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593211","type":"widget.content","uniqueHTMLId":"page-zones__main-widgets__5aec6960a6024","uniqueId":"ca9ZfjKk6Mn4iWg","isZone":false,"parentZone":"main","zoneName":null},{"className":"map","data":{"zoom":"15","height":"200","localClass":"widget-map-LW87K0","uniqueId":"FLY6EiMcXMBxlWO","mapaddress":"Weiss zum Erlenbach AG","address1":"Riedstrasse 10","postalcode":"6330"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec6997126bc","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593215","type":"widget.map","uniqueHTMLId":"page-zones__main-widgets__5aec6997126bc","uniqueId":"FLY6EiMcXMBxlWO","isZone":false,"parentZone":"main","zoneName":null},{"className":"space","data":{"height":"50","localClass":"widget-space-0P454M"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec8b5601083","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593626","type":"widget.space","uniqueHTMLId":"page-zones__main-widgets__5aec8b5601083","uniqueId":"FFNHuDasOM8MQj1","isZone":false,"parentZone":"main","zoneName":null},{"className":"content","data":{"type":"widget.content","content":"<p style=\"text-align: left;\"><b>coming soon: <\/b><a href=\"http:\/\/puurpuur.ch\" target=\"_blank\"><u>puurpuur<\/u><\/a>, SBB Areal Kirschloh, Zug<\/p>","localClass":"widget-content-88G1E8","uniqueId":"At7qaKGO4aXLK8g"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec6a5554e29","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593223","type":"widget.content","uniqueHTMLId":"page-zones__main-widgets__5aec6a5554e29","uniqueId":"At7qaKGO4aXLK8g","isZone":false,"parentZone":"main","zoneName":null},{"className":"map","data":{"zoom":"15","height":"200","localClass":"widget-map-K02H9H","uniqueId":"Jf9f15qWif9fO3X","mapaddress":"G\u00fcterbahnhof","postalcode":"6300"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec6ad9a9755","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593226","type":"widget.map","uniqueHTMLId":"page-zones__main-widgets__5aec6ad9a9755","uniqueId":"Jf9f15qWif9fO3X","isZone":false,"parentZone":"main","zoneName":null},{"className":"space","data":{"height":"50","localClass":"widget-space-XPSAE8"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec8bb9592a0","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593629","type":"widget.space","uniqueHTMLId":"page-zones__main-widgets__5aec8bb9592a0","uniqueId":"1USgtD8QWOi6FuM","isZone":false,"parentZone":"main","zoneName":null},{"className":"image","data":{"widgetType":"widget.image","description":"assets","linkUrl":"https:\/\/www.facebook.com\/woodypizzatruck\/?ref=bookmarks","target":"_blank","action":"external","scale":"original","imageWidth":"44","alt":"","title":"assets","align":"widget-align-center","src":"http:\/\/files.designer.hoststar.ch\/e3\/74\/e37410fb-8076-442c-a73e-55f1f95513f8.png","localClass":"widget-image-5PP9VJ","uniqueId":"ouVsf7AqUymZrKl","path":"e3\/74\/e37410fb-8076-442c-a73e-55f1f95513f8.png","url":"http:\/\/files.designer.hoststar.ch\/e3\/74\/e37410fb-8076-442c-a73e-55f1f95513f8.png","fileName":"","imageHeight":"48","assetRef":"1078306"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5a68debda71a7","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1381110","type":"widget.image","uniqueHTMLId":"page-zones__main-widgets__5a68debda71a7","uniqueId":"ouVsf7AqUymZrKl","asset":{"title":null,"description":null},"isZone":false,"parentZone":"main","zoneName":null},{"className":"space","data":{"height":"50","localClass":"widget-space-U9XB88"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec8bc27a3ac","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593631","type":"widget.space","uniqueHTMLId":"page-zones__main-widgets__5aec8bc27a3ac","uniqueId":"wFVy0CMgiVjCuWx","isZone":false,"parentZone":"main","zoneName":null},{"className":"content","data":{"type":"widget.content","content":"<p style=\"text-align: center;\"><span class=\"wysiwyg-font-size-smaller\">Woody Pizza c\/o CHGC GmbH &nbsp;Christoph Gut &nbsp;Haldenstrasse 38 &nbsp;CH - 8908 Hedingen<\/span><br><span class=\"wysiwyg-font-size-smaller\">+41 (0)79 349 42 29<\/span><br><a href=\"http:\/\/www.hochgenuss.net\" target=\"_self\"><span class=\"wysiwyg-font-size-smaller\">www.hochgenuss.net<\/span><\/a><\/p>","localClass":"widget-content-QP8C46","uniqueId":"8coOGM3tb2nIi8X"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5aec76372476f","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1593443","type":"widget.content","uniqueHTMLId":"page-zones__main-widgets__5aec76372476f","uniqueId":"8coOGM3tb2nIi8X","isZone":false,"parentZone":"main","zoneName":null},{"className":"space","data":{"height":"50","localClass":"widget-space-33MP8Q"},"fixed":false,"isNew":false,"isTemplateWidget":false,"name":"5b18c619c39ea","pageRef":"101288","parentUniqueId":"F8PmEXW3N5Tz8Kd","ref":"1648233","type":"widget.space","uniqueHTMLId":"page-zones__main-widgets__5b18c619c39ea","uniqueId":"5XV8eBSM7uUymHq","isZone":false,"parentZone":"main","zoneName":null},{"className":"feature","data":{"header":"","defaultBgImg":"\/\/55b558c7-resources.designer.hoststar.ch\/74bbdaf\/templates\/sensed\/images\/feature.jpg","positionTopPercentage":"45.29707580555","showBtn":"","buttonText":"","preset":null,"presetRef":null,"uniqueId":null,"bgImg":"","strapline":"","url":"mailto:booking@woodypizza.ch","action":"mail","target":"_self","showTplWidget":"1","fontSize":"24","bold":"","newBgImg":"http:\/\/files.designer.hoststar.ch\/b1\/77\/b1772a9f-26da-4bac-9604-668dcb502182.jpg","fileName":"","useTemplate":"0"},"fixed":true,"isNew":false,"isTemplateWidget":true,"name":"feature-featurehome","pageRef":null,"parentUniqueId":null,"ref":null,"type":"widget.feature","uniqueHTMLId":"page-zones__template-widgets__feature-featurehome","uniqueId":null,"debugMode":false,"enablePolicyPages":false,"isZone":false,"parentZone":null,"zoneName":null}];
+
+        jQuery.noConflict(true);
+        bk$(document).ready(function () {
+            ProfileModel = new BaseKit.Globals.Profile(Profile.profile);
+            Site.load();
+        });
+    }());
+</script>
+
+
+
+
+
+<!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="//55b558c7-resources.designer.hoststar.ch/a21be498cb/templates/lorah/libs/jquery-1.10.2.min.js"><\/script>')</script>
+
+
+<!-- Nav Menu Script -->
+
+    <!-- Clickable -->
+    <script src="//55b558c7-resources.designer.hoststar.ch/a21be498cb/templates/lorah/js/clickable.js"></script>
+
+    <!-- Nav Menu & Blog Search Script -->
+    <script nonce="">
+
+        // Toggles class open to display/hide the whole navigation
+        $(document).on("click", ".navigation-toggle", function() {
+            $( ".bk-extendednavigation" ).toggleClass( "open" );
+        });
+
+        // Toggles class open to display/hide the whole navigation
+        $(document).on("click", ".navigation-toggle", function() {
+            $( "body" ).toggleClass( "noscroll" );
+        });
+
+        // Blog Search
+        $( ".header-search-icon" ).click(function() {
+            $( "body" ).toggleClass( "noscroll blogsearch-open" ); // Add noscroll and blogsearch-open to body
+        });
+
+    </script>
+
+
+    <!-- Touch Script -->
+    <script nonce="">
+        $(document).on('mq4hsChange', function (e) {
+            console.log(e);
+            $(document.documentElement).toggleClass('no-touch', e.trueHover);
+        });
+    </script>
+
+    <!-- Touch Shim -->
+    <script src="//55b558c7-resources.designer.hoststar.ch/a21be498cb/templates/lorah/js/mq4-hover-shim.js"></script>
+
+
+<!-- Feature -->
+<script nonce="">
+
+if ($(".hero").length) {
+    var featureHeight = $(".hero").height();
+    var featurePosition = $(".hero").position();
+    var featureTriggerValue = featureHeight + featurePosition.top;
+    var window_height = window.innerHeight;
+    var offsetAmount;
+    var textBoxHeight = $(".content-inner-wrap").height();
+
+    function checkFeatureDimensions() {
+        featureHeight = $(".hero").height();
+        featurePosition = $(".hero").position();
+        featureTriggerValue = featureHeight + featurePosition.top;
+        window_height = window.innerHeight;
+    }
+
+    // Feature parralax fade effect
+    var scrollEffect = function (elem) {
+
+        // How high the window is
+
+        if ( window.pageYOffset > (featureTriggerValue - window_height)  ) {
+
+            if(featureTriggerValue > window_height) {
+                offsetAmount = window.pageYOffset - (featureTriggerValue - window_height);
+            }
+            else {
+                offsetAmount = window.pageYOffset;
+            }
+
+            // Apply styles as user scrolls
+            elemInner.setAttribute(
+                "style", "opacity:" + Math.max(0, parseFloat(1-(2/window_height*(offsetAmount))).toFixed(2)) + ";"
+            );
+        }
+    };
+
+    var elem = document.querySelector('.hero');
+    var elemInner = document.querySelector('.content-inner-wrap');
+
+
+    window.onscroll = function(e) {
+        scrollEffect(elem);
+    };
+
+    $( window ).resize(function() {
+      checkFeatureDimensions();
+    });
+}
+
+</script>
+
+
+<!-- Smooth Scroll -->
+<script nonce="">
+    $(document).ready(function(){
+
+        $('a[href*=#]').bind('click', function(e) {
+            e.preventDefault();
+
+            var target = $(this).attr("href");
+
+            $('html, body').stop().animate({ scrollTop: $(target).offset().top}, 1000, function() {
+                location.hash = target;
+            });
+
+            return false;
+        });
+
+    });
+
+</script>
+
+
+</body>
+</html>

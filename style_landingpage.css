@@ -1,0 +1,94 @@
+html, body {
+  margin: 0;
+  background-color: #bada55;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.section {
+  max-width: 600px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto 0 auto;
+  padding: 62px 32px 32px 32px;
+}
+
+.grey-background {
+  background-color: grey
+}
+
+.grey-background h1 {
+  color: white;
+}
+
+.grey-background h2 {
+  color: rgba(255, 255, 255, 0.6)
+}
+
+.company-logo {
+  width: 150px;
+  display: block;
+  margin: 0 auto 50px auto;
+}
+
+.contact-group {
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mail-field {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 13px;
+  margin: 0;
+}
+
+.button {
+  border: 2px solid white;
+  padding: 13px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  color: #bada55;
+  background-color: white;
+}
+
+.testimonial {
+  padding: 20px 0;
+  margin: 0;
+  /* margin: 0 auto 0 auto; */
+}
+
+.testimonial img {
+  width: 120px;
+  float: right;
+  margin-left: 40px;
+}
+
+.testimonial p {
+  font-size: 20px;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 50%;
+}
