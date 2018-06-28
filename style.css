@@ -6,37 +6,30 @@ html, body {
   font-family: Helvetica, sans-serif;
 }
 
-/* p {
-  color: orange;
-  text-align: center;
-  font-family: 'Lobster Two', cursive;
-  /* font-family: "Shadows Into Light", cursive;
-  font-family: 'Lobster', cursive;
-} */
 
-head {
-  border: 5px dashed;
-  color: #ff9630;
-}
 
 h1 {
-  font-size: 30px;
+  font-size: 30px bold;
   /* font-family: 'Lobster Two', cursive; */
-  font-family: 'Holtwood One SC', serif;
+  font-family: 'Sigmar One', cursive;
   line-height: 58px;
   text-align: center;
-  /* color: orange; */
+  color: white;
 }
 
 h2 {
-  font-size: 20px;
-  /* font-family: 'Lobster Two', cursive; */
-  font-family: 'Holtwood One SC', serif;
+  font-size: 20px bold;
+  font-family: 'Sigmar One', cursive;
   line-height: 58px;
   text-align: center;
+  color: white;
 }
 
 h3 {
+  font-size: 10px bold;
+  font-family: 'Sigmar One', cursive;
+  line-height: 58px;
+  text-align: center;
   color: white;
 }
 
@@ -44,12 +37,129 @@ p {
   color: white;
 }
 
-/* h1 {
-  font-size: 35px;
-  font-family: "Shadows Into Light", cursive;
-  line-height: 58px;
+/*Strip the ul of padding and list styling*/
+
+#nav {
+	
+	background-color: orange;
+	max-width: 90%;
+	margin: 20px 20px 20px 20px;
+	align-content: 
+	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   text-align: center;
-  color: #grey;
+  
+}
+
+/*Create a horizontal list with spacing*/
+
+li {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+/*Style for menu links*/
+
+li a {
+  display: block;
+  min-width: 100px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Holtwood One SC', serif;sans-serif;
+  color: #fff;
+  background: #a9a379;
+  text-decoration: none;
+	
+  border: 2px solid white;
+  padding: 13px;
+  font-size: 16px;
+  border-radius: 5px;
+  
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+/*Hover state for top level links*/
+
+li:hover a {
+  background: orange;
+}
+
+/*Style for dropdown links*/
+
+/* li:hover ul a {
+  background: #f3f3f3;
+  color: #2f3036;
+  height: 40px;
+  line-height: 40px;
+} */
+
+/*Hover state for dropdown links*/
+
+li:hover ul a:hover {
+  background: #19c589;
+  color: orange;
+}
+
+/*Hide dropdown links until they are needed*/
+
+li ul {
+  display: none;
+}
+
+/*Make dropdown links vertical*/
+
+li ul li {
+  display: block;
+  float: none;
+}
+
+/*Prevent text wrapping*/
+
+li ul li a {
+  width: auto;
+  min-width: 100px;
+  padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+
+ul li a:hover+.hidden, .hidden:hover {
+  display: block;
+}
+
+/*
+nav {
+  /* border: 5px;
+} */
+
+/*
+nav ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 10px 0px 10px 0px;
+}
+
+nav ul li {
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  color: #orange;
+  border-bottom: 3px;
+  border-bottom-style: dashed;
+}
+
+nav ul li.selected {
+  background-color: #c8b99c;
 } */
 
 /* .grey-background {
@@ -74,8 +184,8 @@ p {
 
 .welcome_image {
   width: 100%;
-  margin 0 auto 0 auto;
-  border-bottom: 20px;
+  margin 0px;
+  
 }
 
 .section {
@@ -85,11 +195,11 @@ p {
 }
 
 .section-head {
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto 0 auto;
-  padding: 32px 32px 32px 32px;
+  padding: 5px 30px 10px 30px;
   color: #ff9630;
-  border: 5px dashed;
+  border: 5px;
   background-color: grey;
 }
 
@@ -114,20 +224,6 @@ p {
 
 }
 
-#banner {
-  text-align: center;
-  /* background-image: url("https://unsplash.it/1300/600?random"); */
-  background-image: url("./background_images.js");
-  /* background-image: url("images/brueggli_sunset.jpg"); */
-  background-size: 120%;
-  /* background-position-y: center;
-  background-position-x: center; */
-  /* background-position: 100px 5px; */
-  background-position: center center;
-  padding: 50px;
-  color: white;
-  text-shadow: 1px 1px 5px black;
-}
 
 .testimonial cite {
   color: lightgrey;
@@ -157,6 +253,31 @@ p {
 .button:hover {
   color: orange;
   background-color: white;
+}
+
+#banner {
+  text-align: center;
+  /* background-image: url("https://unsplash.it/1300/600?random"); */
+  background-image: url("./background_images.js");
+  /* background-image: url("images/brueggli_sunset.jpg"); */
+  background-size: 120%;
+  /* background-position-y: center;
+  background-position-x: center; */
+  /* background-position: 100px 5px; */
+  background-position: center center;
+  padding: 50px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
   /*
 .button {
   background-color: orange;
