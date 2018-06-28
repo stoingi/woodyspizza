@@ -40,8 +40,6 @@ p {
 /*Strip the ul of padding and list styling*/
 
 #nav {
-	
-	background-color: orange;
 	max-width: 90%;
 	margin: 20px 20px 20px 20px;
 	align-content: 
@@ -183,7 +181,7 @@ nav ul li.selected {
 }
 
 .welcome_image {
-  width: 100%;
+  width: 60%;
   margin 0px;
   
 }
@@ -195,12 +193,9 @@ nav ul li.selected {
 }
 
 .section-head {
-  max-width: 800px;
-  margin: 0 auto 0 auto;
   padding: 5px 30px 10px 30px;
   color: #ff9630;
   border: 5px;
-  background-color: grey;
 }
 
 .testimonial {
