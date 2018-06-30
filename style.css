@@ -11,7 +11,7 @@ html, body {
 h1 {
   font-size: 30px bold;
   /* font-family: 'Lobster Two', cursive; */
-  font-family: 'Sigmar One', cursive;
+  font-family: 'Candal', sans-serif;
   line-height: 58px;
   text-align: center;
   color: white;
@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   font-size: 20px bold;
-  font-family: 'Sigmar One', cursive;
+  font-family: 'Candal', sans-serif;
   line-height: 58px;
   text-align: center;
   color: white;
@@ -27,7 +27,7 @@ h2 {
 
 h3 {
   font-size: 10px bold;
-  font-family: 'Sigmar One', cursive;
+  font-family: 'Candal', sans-serif;
   line-height: 58px;
   text-align: center;
   color: white;
@@ -69,16 +69,14 @@ li a {
   height: 50px;
   text-align: center;
   line-height: 50px;
-  font-family: 'Holtwood One SC', serif;sans-serif;
+  font-family: 'Candal', sans-serif;
   color: #fff;
   background: #a9a379;
   text-decoration: none;
-	
-  border: 2px solid white;
-  padding: 13px;
+  padding: 5px 13px 5px 13px;
   font-size: 16px;
   border-radius: 5px;
-  
+  border: 2px solid orange;
   text-decoration: none;
   font-weight: bold;
   
@@ -87,7 +85,7 @@ li a {
 /*Hover state for top level links*/
 
 li:hover a {
-  background: orange;
+  background: #F78D00;
 }
 
 /*Style for dropdown links*/
@@ -103,7 +101,7 @@ li:hover a {
 
 li:hover ul a:hover {
   background: #19c589;
-  color: orange;
+  color: #A64E06;
 }
 
 /*Hide dropdown links until they are needed*/
